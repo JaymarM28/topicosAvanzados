@@ -14,7 +14,7 @@
 -- ===========================================================================
 
 ALTER TABLE bill
-    ADD COLUMN payment_method VARCHAR(2);
+    ADD COLUMN payment_method INT;
 
 -- ¿Por qué admite NULL en vez de tener un DEFAULT? Las facturas ya cargadas en
 -- la Sesión 1 son anteriores a que existiera el registro de medio de pago: no
