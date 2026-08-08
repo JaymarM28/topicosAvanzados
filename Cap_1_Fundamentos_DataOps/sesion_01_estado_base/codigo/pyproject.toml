@@ -1,9 +1,0 @@
-[project]
-name = "inyeccion-semilla"
-version = "0.1.0"
-description = "Sesión 1 — inyecta el estado base de Parch & Posey en la branch dev de Neon"
-requires-python = ">=3.12"
-dependencies = [
-    "psycopg2-binary>=2.9.12",
-    "python-dotenv>=1.2.2",
-]
