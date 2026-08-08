@@ -1,0 +1,120 @@
+# ---------------------------------------------------------------------------
+# Entornos virtuales de Python
+# `uv` crea .venv/ — es el que hay que ignorar (no una carpeta venv/ genérica)
+# ---------------------------------------------------------------------------
+.venv/
+venv/
+.python-version
+
+# ---------------------------------------------------------------------------
+# Caches y artefactos de Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# uv
+# NOTA: uv.lock SÍ se versiona (garantiza builds reproducibles). No lo ignores.
+.uv-cache/
+
+# ---------------------------------------------------------------------------
+# Secretos y credenciales — NUNCA versionar
+# ---------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.env
+secrets/
+credentials.json
+service_account*.json
+*.pem
+*.key
+*.p8
+*.pkcs8
+rsa_key*
+
+# Flyway
+flyway.conf
+!flyway.conf.example
+conf/flyway.conf
+flyway.user
+flyway.password
+
+# dbt
+profiles.yml
+!profiles.yml.example
+.user.yml
+target/
+dbt_packages/
+dbt_modules/
+logs/
+.dbt/
+
+# Snowflake
+.snowsql/
+snowsql_rt.log*
+~/.snowflake/
+connections.toml
+
+# ---------------------------------------------------------------------------
+# Estado y artefactos de herramientas
+# ---------------------------------------------------------------------------
+*.log
+*.tmp
+*.bak
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# ---------------------------------------------------------------------------
+# Node (por si alguna sesión usa tooling JS)
+# ---------------------------------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# ---------------------------------------------------------------------------
+# Datos pesados / generados
+# Los datos semilla pequeños de Parch & Posey SÍ se versionan (ver data/README.md)
+# ---------------------------------------------------------------------------
+data/output/
+data/tmp/
+*.parquet
+*.duckdb
+*.sqlite3
+
+# ---------------------------------------------------------------------------
+# Documentación interna del docente — no se publica a los estudiantes
+# ---------------------------------------------------------------------------
+TESTING_PLAN_E2E.md
+
+# ---------------------------------------------------------------------------
+# Sistema operativo y editores
+# ---------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+.idea/
+# Nota: `.vscode/*` y no `.vscode/` — git no desciende a un directorio excluido,
+# así que las excepciones de abajo solo funcionan si se ignora el contenido, no la carpeta.
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.swp
+*.swo
+
+# Configuración local de Claude Code (por máquina, no compartida)
+.claude/settings.local.json
