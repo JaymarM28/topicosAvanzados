@@ -46,7 +46,7 @@ def encontrar_raiz_repositorio(inicio: Path) -> Path:
 
 
 RAIZ = encontrar_raiz_repositorio(Path(__file__).resolve().parent)
-DIRECTORIO_DATOS = RAIZ / "data" / "equipo_5"
+DIRECTORIO_DATOS = RAIZ / "data"
 
 # El orden importa: las foreign keys obligan a insertar los padres antes que los hijos.
 # `coverage` y `policy` no dependen de nadie; `policy_edit_log` y `bill` dependen de
