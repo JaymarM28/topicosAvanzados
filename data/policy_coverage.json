@@ -1,0 +1,1003 @@
+[
+  {
+    "id": "1",
+    "policy_id": "1",
+    "coverage_id": "1",
+    "active": "true",
+    "created_date": "2025-09-29T00:00:00"
+  },
+  {
+    "id": "2",
+    "policy_id": "1",
+    "coverage_id": "9",
+    "active": "true",
+    "created_date": "2025-09-29T00:00:00"
+  },
+  {
+    "id": "3",
+    "policy_id": "1",
+    "coverage_id": "3",
+    "active": "true",
+    "created_date": "2025-09-29T00:00:00"
+  },
+  {
+    "id": "4",
+    "policy_id": "1",
+    "coverage_id": "10",
+    "active": "false",
+    "created_date": "2025-09-29T00:00:00"
+  },
+  {
+    "id": "5",
+    "policy_id": "1",
+    "coverage_id": "2",
+    "active": "true",
+    "created_date": "2025-09-29T00:00:00"
+  },
+  {
+    "id": "6",
+    "policy_id": "2",
+    "coverage_id": "10",
+    "active": "true",
+    "created_date": "2024-01-30T00:00:00"
+  },
+  {
+    "id": "7",
+    "policy_id": "2",
+    "coverage_id": "1",
+    "active": "true",
+    "created_date": "2024-01-30T00:00:00"
+  },
+  {
+    "id": "8",
+    "policy_id": "2",
+    "coverage_id": "9",
+    "active": "true",
+    "created_date": "2024-01-30T00:00:00"
+  },
+  {
+    "id": "9",
+    "policy_id": "2",
+    "coverage_id": "3",
+    "active": "true",
+    "created_date": "2024-01-30T00:00:00"
+  },
+  {
+    "id": "10",
+    "policy_id": "2",
+    "coverage_id": "2",
+    "active": "true",
+    "created_date": "2024-01-30T00:00:00"
+  },
+  {
+    "id": "11",
+    "policy_id": "3",
+    "coverage_id": "1",
+    "active": "true",
+    "created_date": "2024-09-09T00:00:00"
+  },
+  {
+    "id": "12",
+    "policy_id": "3",
+    "coverage_id": "2",
+    "active": "true",
+    "created_date": "2024-09-09T00:00:00"
+  },
+  {
+    "id": "13",
+    "policy_id": "3",
+    "coverage_id": "9",
+    "active": "true",
+    "created_date": "2024-09-09T00:00:00"
+  },
+  {
+    "id": "14",
+    "policy_id": "3",
+    "coverage_id": "10",
+    "active": "true",
+    "created_date": "2024-09-09T00:00:00"
+  },
+  {
+    "id": "15",
+    "policy_id": "3",
+    "coverage_id": "3",
+    "active": "true",
+    "created_date": "2024-09-09T00:00:00"
+  },
+  {
+    "id": "16",
+    "policy_id": "4",
+    "coverage_id": "2",
+    "active": "true",
+    "created_date": "2024-10-13T00:00:00"
+  },
+  {
+    "id": "17",
+    "policy_id": "4",
+    "coverage_id": "3",
+    "active": "true",
+    "created_date": "2024-10-13T00:00:00"
+  },
+  {
+    "id": "18",
+    "policy_id": "4",
+    "coverage_id": "1",
+    "active": "true",
+    "created_date": "2024-10-13T00:00:00"
+  },
+  {
+    "id": "19",
+    "policy_id": "4",
+    "coverage_id": "10",
+    "active": "true",
+    "created_date": "2024-10-13T00:00:00"
+  },
+  {
+    "id": "20",
+    "policy_id": "4",
+    "coverage_id": "9",
+    "active": "true",
+    "created_date": "2024-10-13T00:00:00"
+  },
+  {
+    "id": "21",
+    "policy_id": "5",
+    "coverage_id": "9",
+    "active": "true",
+    "created_date": "2025-03-31T00:00:00"
+  },
+  {
+    "id": "22",
+    "policy_id": "5",
+    "coverage_id": "1",
+    "active": "true",
+    "created_date": "2025-03-31T00:00:00"
+  },
+  {
+    "id": "23",
+    "policy_id": "6",
+    "coverage_id": "1",
+    "active": "true",
+    "created_date": "2024-06-18T00:00:00"
+  },
+  {
+    "id": "24",
+    "policy_id": "6",
+    "coverage_id": "9",
+    "active": "true",
+    "created_date": "2024-06-18T00:00:00"
+  },
+  {
+    "id": "25",
+    "policy_id": "6",
+    "coverage_id": "2",
+    "active": "true",
+    "created_date": "2024-06-18T00:00:00"
+  },
+  {
+    "id": "26",
+    "policy_id": "7",
+    "coverage_id": "10",
+    "active": "true",
+    "created_date": "2024-07-28T00:00:00"
+  },
+  {
+    "id": "27",
+    "policy_id": "7",
+    "coverage_id": "1",
+    "active": "true",
+    "created_date": "2024-07-28T00:00:00"
+  },
+  {
+    "id": "28",
+    "policy_id": "7",
+    "coverage_id": "9",
+    "active": "true",
+    "created_date": "2024-07-28T00:00:00"
+  },
+  {
+    "id": "29",
+    "policy_id": "7",
+    "coverage_id": "3",
+    "active": "true",
+    "created_date": "2024-07-28T00:00:00"
+  },
+  {
+    "id": "30",
+    "policy_id": "8",
+    "coverage_id": "2",
+    "active": "true",
+    "created_date": "2024-09-27T00:00:00"
+  },
+  {
+    "id": "31",
+    "policy_id": "8",
+    "coverage_id": "10",
+    "active": "true",
+    "created_date": "2024-09-27T00:00:00"
+  },
+  {
+    "id": "32",
+    "policy_id": "8",
+    "coverage_id": "9",
+    "active": "true",
+    "created_date": "2024-09-27T00:00:00"
+  },
+  {
+    "id": "33",
+    "policy_id": "8",
+    "coverage_id": "1",
+    "active": "true",
+    "created_date": "2024-09-27T00:00:00"
+  },
+  {
+    "id": "34",
+    "policy_id": "9",
+    "coverage_id": "10",
+    "active": "false",
+    "created_date": "2024-12-12T00:00:00"
+  },
+  {
+    "id": "35",
+    "policy_id": "9",
+    "coverage_id": "9",
+    "active": "false",
+    "created_date": "2024-12-12T00:00:00"
+  },
+  {
+    "id": "36",
+    "policy_id": "9",
+    "coverage_id": "1",
+    "active": "true",
+    "created_date": "2024-12-12T00:00:00"
+  },
+  {
+    "id": "37",
+    "policy_id": "9",
+    "coverage_id": "3",
+    "active": "true",
+    "created_date": "2024-12-12T00:00:00"
+  },
+  {
+    "id": "38",
+    "policy_id": "9",
+    "coverage_id": "2",
+    "active": "true",
+    "created_date": "2024-12-12T00:00:00"
+  },
+  {
+    "id": "39",
+    "policy_id": "10",
+    "coverage_id": "1",
+    "active": "true",
+    "created_date": "2025-05-07T00:00:00"
+  },
+  {
+    "id": "40",
+    "policy_id": "10",
+    "coverage_id": "10",
+    "active": "true",
+    "created_date": "2025-05-07T00:00:00"
+  },
+  {
+    "id": "41",
+    "policy_id": "11",
+    "coverage_id": "3",
+    "active": "true",
+    "created_date": "2025-02-17T00:00:00"
+  },
+  {
+    "id": "42",
+    "policy_id": "11",
+    "coverage_id": "1",
+    "active": "true",
+    "created_date": "2025-02-17T00:00:00"
+  },
+  {
+    "id": "43",
+    "policy_id": "11",
+    "coverage_id": "10",
+    "active": "true",
+    "created_date": "2025-02-17T00:00:00"
+  },
+  {
+    "id": "44",
+    "policy_id": "12",
+    "coverage_id": "10",
+    "active": "true",
+    "created_date": "2024-02-17T00:00:00"
+  },
+  {
+    "id": "45",
+    "policy_id": "12",
+    "coverage_id": "3",
+    "active": "true",
+    "created_date": "2024-02-17T00:00:00"
+  },
+  {
+    "id": "46",
+    "policy_id": "13",
+    "coverage_id": "3",
+    "active": "true",
+    "created_date": "2024-12-18T00:00:00"
+  },
+  {
+    "id": "47",
+    "policy_id": "13",
+    "coverage_id": "10",
+    "active": "true",
+    "created_date": "2024-12-18T00:00:00"
+  },
+  {
+    "id": "48",
+    "policy_id": "14",
+    "coverage_id": "9",
+    "active": "false",
+    "created_date": "2024-10-29T00:00:00"
+  },
+  {
+    "id": "49",
+    "policy_id": "14",
+    "coverage_id": "3",
+    "active": "true",
+    "created_date": "2024-10-29T00:00:00"
+  },
+  {
+    "id": "50",
+    "policy_id": "14",
+    "coverage_id": "1",
+    "active": "true",
+    "created_date": "2024-10-29T00:00:00"
+  },
+  {
+    "id": "51",
+    "policy_id": "14",
+    "coverage_id": "10",
+    "active": "true",
+    "created_date": "2024-10-29T00:00:00"
+  },
+  {
+    "id": "52",
+    "policy_id": "14",
+    "coverage_id": "2",
+    "active": "true",
+    "created_date": "2024-10-29T00:00:00"
+  },
+  {
+    "id": "53",
+    "policy_id": "15",
+    "coverage_id": "9",
+    "active": "false",
+    "created_date": "2024-12-14T00:00:00"
+  },
+  {
+    "id": "54",
+    "policy_id": "15",
+    "coverage_id": "2",
+    "active": "false",
+    "created_date": "2024-12-14T00:00:00"
+  },
+  {
+    "id": "55",
+    "policy_id": "15",
+    "coverage_id": "10",
+    "active": "true",
+    "created_date": "2024-12-14T00:00:00"
+  },
+  {
+    "id": "56",
+    "policy_id": "15",
+    "coverage_id": "3",
+    "active": "true",
+    "created_date": "2024-12-14T00:00:00"
+  },
+  {
+    "id": "57",
+    "policy_id": "16",
+    "coverage_id": "1",
+    "active": "true",
+    "created_date": "2024-06-01T00:00:00"
+  },
+  {
+    "id": "58",
+    "policy_id": "16",
+    "coverage_id": "10",
+    "active": "true",
+    "created_date": "2024-06-01T00:00:00"
+  },
+  {
+    "id": "59",
+    "policy_id": "17",
+    "coverage_id": "3",
+    "active": "true",
+    "created_date": "2025-02-19T00:00:00"
+  },
+  {
+    "id": "60",
+    "policy_id": "17",
+    "coverage_id": "10",
+    "active": "true",
+    "created_date": "2025-02-19T00:00:00"
+  },
+  {
+    "id": "61",
+    "policy_id": "17",
+    "coverage_id": "2",
+    "active": "true",
+    "created_date": "2025-02-19T00:00:00"
+  },
+  {
+    "id": "62",
+    "policy_id": "17",
+    "coverage_id": "9",
+    "active": "true",
+    "created_date": "2025-02-19T00:00:00"
+  },
+  {
+    "id": "63",
+    "policy_id": "18",
+    "coverage_id": "9",
+    "active": "true",
+    "created_date": "2024-05-29T00:00:00"
+  },
+  {
+    "id": "64",
+    "policy_id": "18",
+    "coverage_id": "2",
+    "active": "true",
+    "created_date": "2024-05-29T00:00:00"
+  },
+  {
+    "id": "65",
+    "policy_id": "18",
+    "coverage_id": "3",
+    "active": "true",
+    "created_date": "2024-05-29T00:00:00"
+  },
+  {
+    "id": "66",
+    "policy_id": "18",
+    "coverage_id": "1",
+    "active": "true",
+    "created_date": "2024-05-29T00:00:00"
+  },
+  {
+    "id": "67",
+    "policy_id": "19",
+    "coverage_id": "10",
+    "active": "false",
+    "created_date": "2025-07-31T00:00:00"
+  },
+  {
+    "id": "68",
+    "policy_id": "19",
+    "coverage_id": "2",
+    "active": "true",
+    "created_date": "2025-07-31T00:00:00"
+  },
+  {
+    "id": "69",
+    "policy_id": "19",
+    "coverage_id": "3",
+    "active": "true",
+    "created_date": "2025-07-31T00:00:00"
+  },
+  {
+    "id": "70",
+    "policy_id": "20",
+    "coverage_id": "9",
+    "active": "true",
+    "created_date": "2024-10-28T00:00:00"
+  },
+  {
+    "id": "71",
+    "policy_id": "20",
+    "coverage_id": "1",
+    "active": "true",
+    "created_date": "2024-10-28T00:00:00"
+  },
+  {
+    "id": "72",
+    "policy_id": "21",
+    "coverage_id": "1",
+    "active": "true",
+    "created_date": "2024-11-21T00:00:00"
+  },
+  {
+    "id": "73",
+    "policy_id": "21",
+    "coverage_id": "9",
+    "active": "true",
+    "created_date": "2024-11-21T00:00:00"
+  },
+  {
+    "id": "74",
+    "policy_id": "22",
+    "coverage_id": "10",
+    "active": "true",
+    "created_date": "2024-07-02T00:00:00"
+  },
+  {
+    "id": "75",
+    "policy_id": "22",
+    "coverage_id": "2",
+    "active": "true",
+    "created_date": "2024-07-02T00:00:00"
+  },
+  {
+    "id": "76",
+    "policy_id": "22",
+    "coverage_id": "3",
+    "active": "false",
+    "created_date": "2024-07-02T00:00:00"
+  },
+  {
+    "id": "77",
+    "policy_id": "22",
+    "coverage_id": "1",
+    "active": "true",
+    "created_date": "2024-07-02T00:00:00"
+  },
+  {
+    "id": "78",
+    "policy_id": "22",
+    "coverage_id": "9",
+    "active": "true",
+    "created_date": "2024-07-02T00:00:00"
+  },
+  {
+    "id": "79",
+    "policy_id": "23",
+    "coverage_id": "3",
+    "active": "true",
+    "created_date": "2025-05-29T00:00:00"
+  },
+  {
+    "id": "80",
+    "policy_id": "23",
+    "coverage_id": "1",
+    "active": "true",
+    "created_date": "2025-05-29T00:00:00"
+  },
+  {
+    "id": "81",
+    "policy_id": "24",
+    "coverage_id": "3",
+    "active": "true",
+    "created_date": "2025-01-07T00:00:00"
+  },
+  {
+    "id": "82",
+    "policy_id": "24",
+    "coverage_id": "10",
+    "active": "true",
+    "created_date": "2025-01-07T00:00:00"
+  },
+  {
+    "id": "83",
+    "policy_id": "24",
+    "coverage_id": "1",
+    "active": "true",
+    "created_date": "2025-01-07T00:00:00"
+  },
+  {
+    "id": "84",
+    "policy_id": "24",
+    "coverage_id": "2",
+    "active": "true",
+    "created_date": "2025-01-07T00:00:00"
+  },
+  {
+    "id": "85",
+    "policy_id": "24",
+    "coverage_id": "9",
+    "active": "true",
+    "created_date": "2025-01-07T00:00:00"
+  },
+  {
+    "id": "86",
+    "policy_id": "25",
+    "coverage_id": "9",
+    "active": "true",
+    "created_date": "2024-07-01T00:00:00"
+  },
+  {
+    "id": "87",
+    "policy_id": "25",
+    "coverage_id": "1",
+    "active": "false",
+    "created_date": "2024-07-01T00:00:00"
+  },
+  {
+    "id": "88",
+    "policy_id": "25",
+    "coverage_id": "10",
+    "active": "true",
+    "created_date": "2024-07-01T00:00:00"
+  },
+  {
+    "id": "89",
+    "policy_id": "26",
+    "coverage_id": "2",
+    "active": "true",
+    "created_date": "2024-10-22T00:00:00"
+  },
+  {
+    "id": "90",
+    "policy_id": "26",
+    "coverage_id": "10",
+    "active": "true",
+    "created_date": "2024-10-22T00:00:00"
+  },
+  {
+    "id": "91",
+    "policy_id": "26",
+    "coverage_id": "1",
+    "active": "true",
+    "created_date": "2024-10-22T00:00:00"
+  },
+  {
+    "id": "92",
+    "policy_id": "26",
+    "coverage_id": "9",
+    "active": "true",
+    "created_date": "2024-10-22T00:00:00"
+  },
+  {
+    "id": "93",
+    "policy_id": "26",
+    "coverage_id": "3",
+    "active": "true",
+    "created_date": "2024-10-22T00:00:00"
+  },
+  {
+    "id": "94",
+    "policy_id": "27",
+    "coverage_id": "10",
+    "active": "true",
+    "created_date": "2024-12-24T00:00:00"
+  },
+  {
+    "id": "95",
+    "policy_id": "27",
+    "coverage_id": "9",
+    "active": "true",
+    "created_date": "2024-12-24T00:00:00"
+  },
+  {
+    "id": "96",
+    "policy_id": "27",
+    "coverage_id": "3",
+    "active": "true",
+    "created_date": "2024-12-24T00:00:00"
+  },
+  {
+    "id": "97",
+    "policy_id": "27",
+    "coverage_id": "1",
+    "active": "true",
+    "created_date": "2024-12-24T00:00:00"
+  },
+  {
+    "id": "98",
+    "policy_id": "28",
+    "coverage_id": "3",
+    "active": "true",
+    "created_date": "2024-07-22T00:00:00"
+  },
+  {
+    "id": "99",
+    "policy_id": "28",
+    "coverage_id": "1",
+    "active": "true",
+    "created_date": "2024-07-22T00:00:00"
+  },
+  {
+    "id": "100",
+    "policy_id": "28",
+    "coverage_id": "9",
+    "active": "true",
+    "created_date": "2024-07-22T00:00:00"
+  },
+  {
+    "id": "101",
+    "policy_id": "28",
+    "coverage_id": "2",
+    "active": "true",
+    "created_date": "2024-07-22T00:00:00"
+  },
+  {
+    "id": "102",
+    "policy_id": "29",
+    "coverage_id": "1",
+    "active": "true",
+    "created_date": "2024-06-24T00:00:00"
+  },
+  {
+    "id": "103",
+    "policy_id": "29",
+    "coverage_id": "10",
+    "active": "true",
+    "created_date": "2024-06-24T00:00:00"
+  },
+  {
+    "id": "104",
+    "policy_id": "30",
+    "coverage_id": "10",
+    "active": "true",
+    "created_date": "2024-07-19T00:00:00"
+  },
+  {
+    "id": "105",
+    "policy_id": "30",
+    "coverage_id": "2",
+    "active": "true",
+    "created_date": "2024-07-19T00:00:00"
+  },
+  {
+    "id": "106",
+    "policy_id": "30",
+    "coverage_id": "1",
+    "active": "true",
+    "created_date": "2024-07-19T00:00:00"
+  },
+  {
+    "id": "107",
+    "policy_id": "30",
+    "coverage_id": "9",
+    "active": "true",
+    "created_date": "2024-07-19T00:00:00"
+  },
+  {
+    "id": "108",
+    "policy_id": "31",
+    "coverage_id": "1",
+    "active": "true",
+    "created_date": "2024-07-03T00:00:00"
+  },
+  {
+    "id": "109",
+    "policy_id": "31",
+    "coverage_id": "3",
+    "active": "true",
+    "created_date": "2024-07-03T00:00:00"
+  },
+  {
+    "id": "110",
+    "policy_id": "31",
+    "coverage_id": "10",
+    "active": "true",
+    "created_date": "2024-07-03T00:00:00"
+  },
+  {
+    "id": "111",
+    "policy_id": "31",
+    "coverage_id": "2",
+    "active": "false",
+    "created_date": "2024-07-03T00:00:00"
+  },
+  {
+    "id": "112",
+    "policy_id": "32",
+    "coverage_id": "1",
+    "active": "true",
+    "created_date": "2025-05-09T00:00:00"
+  },
+  {
+    "id": "113",
+    "policy_id": "32",
+    "coverage_id": "2",
+    "active": "true",
+    "created_date": "2025-05-09T00:00:00"
+  },
+  {
+    "id": "114",
+    "policy_id": "32",
+    "coverage_id": "10",
+    "active": "true",
+    "created_date": "2025-05-09T00:00:00"
+  },
+  {
+    "id": "115",
+    "policy_id": "32",
+    "coverage_id": "3",
+    "active": "true",
+    "created_date": "2025-05-09T00:00:00"
+  },
+  {
+    "id": "116",
+    "policy_id": "33",
+    "coverage_id": "1",
+    "active": "true",
+    "created_date": "2024-03-14T00:00:00"
+  },
+  {
+    "id": "117",
+    "policy_id": "33",
+    "coverage_id": "2",
+    "active": "true",
+    "created_date": "2024-03-14T00:00:00"
+  },
+  {
+    "id": "118",
+    "policy_id": "33",
+    "coverage_id": "9",
+    "active": "true",
+    "created_date": "2024-03-14T00:00:00"
+  },
+  {
+    "id": "119",
+    "policy_id": "33",
+    "coverage_id": "10",
+    "active": "true",
+    "created_date": "2024-03-14T00:00:00"
+  },
+  {
+    "id": "120",
+    "policy_id": "33",
+    "coverage_id": "3",
+    "active": "false",
+    "created_date": "2024-03-14T00:00:00"
+  },
+  {
+    "id": "121",
+    "policy_id": "34",
+    "coverage_id": "1",
+    "active": "true",
+    "created_date": "2025-02-23T00:00:00"
+  },
+  {
+    "id": "122",
+    "policy_id": "34",
+    "coverage_id": "2",
+    "active": "true",
+    "created_date": "2025-02-23T00:00:00"
+  },
+  {
+    "id": "123",
+    "policy_id": "34",
+    "coverage_id": "10",
+    "active": "true",
+    "created_date": "2025-02-23T00:00:00"
+  },
+  {
+    "id": "124",
+    "policy_id": "34",
+    "coverage_id": "3",
+    "active": "true",
+    "created_date": "2025-02-23T00:00:00"
+  },
+  {
+    "id": "125",
+    "policy_id": "34",
+    "coverage_id": "9",
+    "active": "true",
+    "created_date": "2025-02-23T00:00:00"
+  },
+  {
+    "id": "126",
+    "policy_id": "35",
+    "coverage_id": "9",
+    "active": "true",
+    "created_date": "2024-10-29T00:00:00"
+  },
+  {
+    "id": "127",
+    "policy_id": "35",
+    "coverage_id": "1",
+    "active": "true",
+    "created_date": "2024-10-29T00:00:00"
+  },
+  {
+    "id": "128",
+    "policy_id": "35",
+    "coverage_id": "10",
+    "active": "true",
+    "created_date": "2024-10-29T00:00:00"
+  },
+  {
+    "id": "129",
+    "policy_id": "35",
+    "coverage_id": "3",
+    "active": "true",
+    "created_date": "2024-10-29T00:00:00"
+  },
+  {
+    "id": "130",
+    "policy_id": "35",
+    "coverage_id": "2",
+    "active": "true",
+    "created_date": "2024-10-29T00:00:00"
+  },
+  {
+    "id": "131",
+    "policy_id": "36",
+    "coverage_id": "2",
+    "active": "false",
+    "created_date": "2025-07-05T00:00:00"
+  },
+  {
+    "id": "132",
+    "policy_id": "36",
+    "coverage_id": "3",
+    "active": "true",
+    "created_date": "2025-07-05T00:00:00"
+  },
+  {
+    "id": "133",
+    "policy_id": "37",
+    "coverage_id": "3",
+    "active": "true",
+    "created_date": "2024-05-16T00:00:00"
+  },
+  {
+    "id": "134",
+    "policy_id": "37",
+    "coverage_id": "9",
+    "active": "true",
+    "created_date": "2024-05-16T00:00:00"
+  },
+  {
+    "id": "135",
+    "policy_id": "37",
+    "coverage_id": "10",
+    "active": "true",
+    "created_date": "2024-05-16T00:00:00"
+  },
+  {
+    "id": "136",
+    "policy_id": "37",
+    "coverage_id": "2",
+    "active": "true",
+    "created_date": "2024-05-16T00:00:00"
+  },
+  {
+    "id": "137",
+    "policy_id": "37",
+    "coverage_id": "1",
+    "active": "true",
+    "created_date": "2024-05-16T00:00:00"
+  },
+  {
+    "id": "138",
+    "policy_id": "38",
+    "coverage_id": "2",
+    "active": "true",
+    "created_date": "2025-07-06T00:00:00"
+  },
+  {
+    "id": "139",
+    "policy_id": "38",
+    "coverage_id": "10",
+    "active": "true",
+    "created_date": "2025-07-06T00:00:00"
+  },
+  {
+    "id": "140",
+    "policy_id": "39",
+    "coverage_id": "9",
+    "active": "true",
+    "created_date": "2024-08-19T00:00:00"
+  },
+  {
+    "id": "141",
+    "policy_id": "39",
+    "coverage_id": "2",
+    "active": "true",
+    "created_date": "2024-08-19T00:00:00"
+  },
+  {
+    "id": "142",
+    "policy_id": "40",
+    "coverage_id": "9",
+    "active": "true",
+    "created_date": "2025-09-02T00:00:00"
+  },
+  {
+    "id": "143",
+    "policy_id": "40",
+    "coverage_id": "3",
+    "active": "true",
+    "created_date": "2025-09-02T00:00:00"
+  }
+]

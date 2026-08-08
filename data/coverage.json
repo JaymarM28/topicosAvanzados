@@ -1,0 +1,137 @@
+[
+  {
+    "id": "1",
+    "coverage_name": "Liability - Bodily Injury",
+    "coverage_group": "Liability",
+    "code": "LIAB-BI",
+    "is_policy_coverage": "true",
+    "is_vehicle_coverage": "false",
+    "description": "Cubre lesiones corporales a terceros causadas por el asegurado."
+  },
+  {
+    "id": "2",
+    "coverage_name": "Liability - Property Damage",
+    "coverage_group": "Liability",
+    "code": "LIAB-PD",
+    "is_policy_coverage": "true",
+    "is_vehicle_coverage": "false",
+    "description": "Cubre daños a la propiedad de terceros causados por el asegurado."
+  },
+  {
+    "id": "3",
+    "coverage_name": "Uninsured Motorist",
+    "coverage_group": "Liability",
+    "code": "UM",
+    "is_policy_coverage": "true",
+    "is_vehicle_coverage": "false",
+    "description": "Cubre daños causados por conductores sin seguro o con seguro insuficiente."
+  },
+  {
+    "id": "4",
+    "coverage_name": "Collision",
+    "coverage_group": "Physical Damage",
+    "code": "COLL",
+    "is_policy_coverage": "false",
+    "is_vehicle_coverage": "true",
+    "description": "Cubre daños al vehículo asegurado por colisión, sin importar la culpa."
+  },
+  {
+    "id": "5",
+    "coverage_name": "Comprehensive",
+    "coverage_group": "Physical Damage",
+    "code": "COMP",
+    "is_policy_coverage": "false",
+    "is_vehicle_coverage": "true",
+    "description": "Cubre daños al vehículo por causas distintas a colisión: robo, incendio, clima."
+  },
+  {
+    "id": "6",
+    "coverage_name": "Roadside Assistance",
+    "coverage_group": "Add-On",
+    "code": "ROAD",
+    "is_policy_coverage": "false",
+    "is_vehicle_coverage": "true",
+    "description": "Asistencia en carretera: batería, llanta ponchada, combustible."
+  },
+  {
+    "id": "7",
+    "coverage_name": "Rental Reimbursement",
+    "coverage_group": "Add-On",
+    "code": "RENT",
+    "is_policy_coverage": "false",
+    "is_vehicle_coverage": "true",
+    "description": "Reembolso de vehículo de reemplazo mientras el asegurado está en reparación."
+  },
+  {
+    "id": "8",
+    "coverage_name": "Gap Insurance",
+    "coverage_group": "Add-On",
+    "code": "GAP",
+    "is_policy_coverage": "false",
+    "is_vehicle_coverage": "true",
+    "description": "Cubre la diferencia entre el valor del vehículo y el saldo del préstamo."
+  },
+  {
+    "id": "9",
+    "coverage_name": "Medical Payments",
+    "coverage_group": "Medical",
+    "code": "MEDPAY",
+    "is_policy_coverage": "true",
+    "is_vehicle_coverage": "false",
+    "description": "Cubre gastos médicos del asegurado y pasajeros, sin importar la culpa."
+  },
+  {
+    "id": "10",
+    "coverage_name": "Personal Injury Protection",
+    "coverage_group": "Medical",
+    "code": "PIP",
+    "is_policy_coverage": "true",
+    "is_vehicle_coverage": "false",
+    "description": "Cubre gastos médicos, salarios perdidos y otros gastos tras un accidente."
+  },
+  {
+    "id": "11",
+    "coverage_name": "Glass Coverage",
+    "coverage_group": "Physical Damage",
+    "code": "GLASS",
+    "is_policy_coverage": "false",
+    "is_vehicle_coverage": "true",
+    "description": "Cubre reparación o reemplazo de parabrisas y vidrios."
+  },
+  {
+    "id": "12",
+    "coverage_name": "Towing & Labor",
+    "coverage_group": "Add-On",
+    "code": "TOW",
+    "is_policy_coverage": "false",
+    "is_vehicle_coverage": "true",
+    "description": "Cubre el costo de remolque y mano de obra en el lugar del incidente."
+  },
+  {
+    "id": "13",
+    "coverage_name": "Custom Equipment",
+    "coverage_group": "Physical Damage",
+    "code": "CUSTEQ",
+    "is_policy_coverage": "false",
+    "is_vehicle_coverage": "true",
+    "description": "Cubre equipo adicional instalado: rines, sonido, blindaje."
+  },
+  {
+    "id": "14",
+    "coverage_name": "Rideshare Coverage",
+    "coverage_group": "Add-On",
+    "code": "RIDESHARE",
+    "is_policy_coverage": "false",
+    "is_vehicle_coverage": "true",
+    "description": "Extiende la cobertura mientras el vehículo se usa para plataformas de transporte."
+  },
+  {
+    "id": "15",
+    "coverage_name": "Diminished Value",
+    "coverage_group": "Physical Damage",
+    "code": "DIMVAL",
+    "is_policy_coverage": "false",
+    "is_vehicle_coverage": "true",
+    "description": "Cubre la pérdida de valor de reventa tras un accidente reparado."
+  }
+]

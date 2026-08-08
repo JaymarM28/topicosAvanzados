@@ -1,0 +1,1500 @@
+[
+  {
+    "id": "1",
+    "vehicle_id": "1",
+    "coverage_id": "5",
+    "active": "true",
+    "created_date": "2024-06-16T00:00:00"
+  },
+  {
+    "id": "2",
+    "vehicle_id": "1",
+    "coverage_id": "8",
+    "active": "true",
+    "created_date": "2024-06-16T00:00:00"
+  },
+  {
+    "id": "3",
+    "vehicle_id": "1",
+    "coverage_id": "14",
+    "active": "true",
+    "created_date": "2024-06-16T00:00:00"
+  },
+  {
+    "id": "4",
+    "vehicle_id": "1",
+    "coverage_id": "11",
+    "active": "true",
+    "created_date": "2024-06-16T00:00:00"
+  },
+  {
+    "id": "5",
+    "vehicle_id": "1",
+    "coverage_id": "6",
+    "active": "false",
+    "created_date": "2024-06-16T00:00:00"
+  },
+  {
+    "id": "6",
+    "vehicle_id": "2",
+    "coverage_id": "13",
+    "active": "false",
+    "created_date": "2025-08-14T00:00:00"
+  },
+  {
+    "id": "7",
+    "vehicle_id": "2",
+    "coverage_id": "14",
+    "active": "true",
+    "created_date": "2025-08-14T00:00:00"
+  },
+  {
+    "id": "8",
+    "vehicle_id": "2",
+    "coverage_id": "8",
+    "active": "true",
+    "created_date": "2025-08-14T00:00:00"
+  },
+  {
+    "id": "9",
+    "vehicle_id": "2",
+    "coverage_id": "15",
+    "active": "true",
+    "created_date": "2025-08-14T00:00:00"
+  },
+  {
+    "id": "10",
+    "vehicle_id": "2",
+    "coverage_id": "6",
+    "active": "true",
+    "created_date": "2025-08-14T00:00:00"
+  },
+  {
+    "id": "11",
+    "vehicle_id": "3",
+    "coverage_id": "7",
+    "active": "true",
+    "created_date": "2024-05-11T00:00:00"
+  },
+  {
+    "id": "12",
+    "vehicle_id": "3",
+    "coverage_id": "4",
+    "active": "true",
+    "created_date": "2024-05-11T00:00:00"
+  },
+  {
+    "id": "13",
+    "vehicle_id": "3",
+    "coverage_id": "14",
+    "active": "true",
+    "created_date": "2024-05-11T00:00:00"
+  },
+  {
+    "id": "14",
+    "vehicle_id": "3",
+    "coverage_id": "15",
+    "active": "true",
+    "created_date": "2024-05-11T00:00:00"
+  },
+  {
+    "id": "15",
+    "vehicle_id": "4",
+    "coverage_id": "11",
+    "active": "true",
+    "created_date": "2025-03-06T00:00:00"
+  },
+  {
+    "id": "16",
+    "vehicle_id": "4",
+    "coverage_id": "14",
+    "active": "true",
+    "created_date": "2025-03-06T00:00:00"
+  },
+  {
+    "id": "17",
+    "vehicle_id": "4",
+    "coverage_id": "15",
+    "active": "true",
+    "created_date": "2025-03-06T00:00:00"
+  },
+  {
+    "id": "18",
+    "vehicle_id": "4",
+    "coverage_id": "13",
+    "active": "true",
+    "created_date": "2025-03-06T00:00:00"
+  },
+  {
+    "id": "19",
+    "vehicle_id": "4",
+    "coverage_id": "12",
+    "active": "false",
+    "created_date": "2025-03-06T00:00:00"
+  },
+  {
+    "id": "20",
+    "vehicle_id": "5",
+    "coverage_id": "11",
+    "active": "true",
+    "created_date": "2025-05-09T00:00:00"
+  },
+  {
+    "id": "21",
+    "vehicle_id": "5",
+    "coverage_id": "4",
+    "active": "true",
+    "created_date": "2025-05-09T00:00:00"
+  },
+  {
+    "id": "22",
+    "vehicle_id": "5",
+    "coverage_id": "7",
+    "active": "true",
+    "created_date": "2025-05-09T00:00:00"
+  },
+  {
+    "id": "23",
+    "vehicle_id": "5",
+    "coverage_id": "8",
+    "active": "true",
+    "created_date": "2025-05-09T00:00:00"
+  },
+  {
+    "id": "24",
+    "vehicle_id": "5",
+    "coverage_id": "14",
+    "active": "true",
+    "created_date": "2025-05-09T00:00:00"
+  },
+  {
+    "id": "25",
+    "vehicle_id": "6",
+    "coverage_id": "5",
+    "active": "true",
+    "created_date": "2024-08-31T00:00:00"
+  },
+  {
+    "id": "26",
+    "vehicle_id": "6",
+    "coverage_id": "12",
+    "active": "true",
+    "created_date": "2024-08-31T00:00:00"
+  },
+  {
+    "id": "27",
+    "vehicle_id": "6",
+    "coverage_id": "14",
+    "active": "true",
+    "created_date": "2024-08-31T00:00:00"
+  },
+  {
+    "id": "28",
+    "vehicle_id": "6",
+    "coverage_id": "11",
+    "active": "true",
+    "created_date": "2024-08-31T00:00:00"
+  },
+  {
+    "id": "29",
+    "vehicle_id": "6",
+    "coverage_id": "15",
+    "active": "false",
+    "created_date": "2024-08-31T00:00:00"
+  },
+  {
+    "id": "30",
+    "vehicle_id": "7",
+    "coverage_id": "12",
+    "active": "true",
+    "created_date": "2025-05-30T00:00:00"
+  },
+  {
+    "id": "31",
+    "vehicle_id": "7",
+    "coverage_id": "8",
+    "active": "true",
+    "created_date": "2025-05-30T00:00:00"
+  },
+  {
+    "id": "32",
+    "vehicle_id": "7",
+    "coverage_id": "7",
+    "active": "true",
+    "created_date": "2025-05-30T00:00:00"
+  },
+  {
+    "id": "33",
+    "vehicle_id": "7",
+    "coverage_id": "11",
+    "active": "true",
+    "created_date": "2025-05-30T00:00:00"
+  },
+  {
+    "id": "34",
+    "vehicle_id": "8",
+    "coverage_id": "14",
+    "active": "false",
+    "created_date": "2024-03-04T00:00:00"
+  },
+  {
+    "id": "35",
+    "vehicle_id": "8",
+    "coverage_id": "4",
+    "active": "false",
+    "created_date": "2024-03-04T00:00:00"
+  },
+  {
+    "id": "36",
+    "vehicle_id": "8",
+    "coverage_id": "6",
+    "active": "true",
+    "created_date": "2024-03-04T00:00:00"
+  },
+  {
+    "id": "37",
+    "vehicle_id": "8",
+    "coverage_id": "7",
+    "active": "true",
+    "created_date": "2024-03-04T00:00:00"
+  },
+  {
+    "id": "38",
+    "vehicle_id": "9",
+    "coverage_id": "13",
+    "active": "false",
+    "created_date": "2025-04-14T00:00:00"
+  },
+  {
+    "id": "39",
+    "vehicle_id": "9",
+    "coverage_id": "15",
+    "active": "true",
+    "created_date": "2025-04-14T00:00:00"
+  },
+  {
+    "id": "40",
+    "vehicle_id": "9",
+    "coverage_id": "8",
+    "active": "true",
+    "created_date": "2025-04-14T00:00:00"
+  },
+  {
+    "id": "41",
+    "vehicle_id": "9",
+    "coverage_id": "14",
+    "active": "true",
+    "created_date": "2025-04-14T00:00:00"
+  },
+  {
+    "id": "42",
+    "vehicle_id": "9",
+    "coverage_id": "4",
+    "active": "true",
+    "created_date": "2025-04-14T00:00:00"
+  },
+  {
+    "id": "43",
+    "vehicle_id": "10",
+    "coverage_id": "4",
+    "active": "true",
+    "created_date": "2025-09-20T00:00:00"
+  },
+  {
+    "id": "44",
+    "vehicle_id": "10",
+    "coverage_id": "13",
+    "active": "true",
+    "created_date": "2025-09-20T00:00:00"
+  },
+  {
+    "id": "45",
+    "vehicle_id": "10",
+    "coverage_id": "7",
+    "active": "true",
+    "created_date": "2025-09-20T00:00:00"
+  },
+  {
+    "id": "46",
+    "vehicle_id": "11",
+    "coverage_id": "5",
+    "active": "false",
+    "created_date": "2025-06-30T00:00:00"
+  },
+  {
+    "id": "47",
+    "vehicle_id": "11",
+    "coverage_id": "6",
+    "active": "true",
+    "created_date": "2025-06-30T00:00:00"
+  },
+  {
+    "id": "48",
+    "vehicle_id": "11",
+    "coverage_id": "7",
+    "active": "true",
+    "created_date": "2025-06-30T00:00:00"
+  },
+  {
+    "id": "49",
+    "vehicle_id": "11",
+    "coverage_id": "13",
+    "active": "true",
+    "created_date": "2025-06-30T00:00:00"
+  },
+  {
+    "id": "50",
+    "vehicle_id": "12",
+    "coverage_id": "6",
+    "active": "true",
+    "created_date": "2025-02-02T00:00:00"
+  },
+  {
+    "id": "51",
+    "vehicle_id": "12",
+    "coverage_id": "5",
+    "active": "true",
+    "created_date": "2025-02-02T00:00:00"
+  },
+  {
+    "id": "52",
+    "vehicle_id": "12",
+    "coverage_id": "12",
+    "active": "true",
+    "created_date": "2025-02-02T00:00:00"
+  },
+  {
+    "id": "53",
+    "vehicle_id": "12",
+    "coverage_id": "11",
+    "active": "true",
+    "created_date": "2025-02-02T00:00:00"
+  },
+  {
+    "id": "54",
+    "vehicle_id": "12",
+    "coverage_id": "14",
+    "active": "false",
+    "created_date": "2025-02-02T00:00:00"
+  },
+  {
+    "id": "55",
+    "vehicle_id": "13",
+    "coverage_id": "8",
+    "active": "true",
+    "created_date": "2025-04-11T00:00:00"
+  },
+  {
+    "id": "56",
+    "vehicle_id": "13",
+    "coverage_id": "5",
+    "active": "true",
+    "created_date": "2025-04-11T00:00:00"
+  },
+  {
+    "id": "57",
+    "vehicle_id": "13",
+    "coverage_id": "7",
+    "active": "true",
+    "created_date": "2025-04-11T00:00:00"
+  },
+  {
+    "id": "58",
+    "vehicle_id": "14",
+    "coverage_id": "7",
+    "active": "true",
+    "created_date": "2025-11-06T00:00:00"
+  },
+  {
+    "id": "59",
+    "vehicle_id": "14",
+    "coverage_id": "15",
+    "active": "true",
+    "created_date": "2025-11-06T00:00:00"
+  },
+  {
+    "id": "60",
+    "vehicle_id": "14",
+    "coverage_id": "11",
+    "active": "false",
+    "created_date": "2025-11-06T00:00:00"
+  },
+  {
+    "id": "61",
+    "vehicle_id": "14",
+    "coverage_id": "8",
+    "active": "true",
+    "created_date": "2025-11-06T00:00:00"
+  },
+  {
+    "id": "62",
+    "vehicle_id": "14",
+    "coverage_id": "6",
+    "active": "true",
+    "created_date": "2025-11-06T00:00:00"
+  },
+  {
+    "id": "63",
+    "vehicle_id": "15",
+    "coverage_id": "5",
+    "active": "true",
+    "created_date": "2024-06-13T00:00:00"
+  },
+  {
+    "id": "64",
+    "vehicle_id": "15",
+    "coverage_id": "12",
+    "active": "true",
+    "created_date": "2024-06-13T00:00:00"
+  },
+  {
+    "id": "65",
+    "vehicle_id": "15",
+    "coverage_id": "11",
+    "active": "false",
+    "created_date": "2024-06-13T00:00:00"
+  },
+  {
+    "id": "66",
+    "vehicle_id": "15",
+    "coverage_id": "14",
+    "active": "true",
+    "created_date": "2024-06-13T00:00:00"
+  },
+  {
+    "id": "67",
+    "vehicle_id": "16",
+    "coverage_id": "4",
+    "active": "true",
+    "created_date": "2025-03-11T00:00:00"
+  },
+  {
+    "id": "68",
+    "vehicle_id": "16",
+    "coverage_id": "14",
+    "active": "true",
+    "created_date": "2025-03-11T00:00:00"
+  },
+  {
+    "id": "69",
+    "vehicle_id": "17",
+    "coverage_id": "13",
+    "active": "true",
+    "created_date": "2024-11-29T00:00:00"
+  },
+  {
+    "id": "70",
+    "vehicle_id": "17",
+    "coverage_id": "6",
+    "active": "true",
+    "created_date": "2024-11-29T00:00:00"
+  },
+  {
+    "id": "71",
+    "vehicle_id": "18",
+    "coverage_id": "13",
+    "active": "true",
+    "created_date": "2025-09-08T00:00:00"
+  },
+  {
+    "id": "72",
+    "vehicle_id": "18",
+    "coverage_id": "8",
+    "active": "true",
+    "created_date": "2025-09-08T00:00:00"
+  },
+  {
+    "id": "73",
+    "vehicle_id": "18",
+    "coverage_id": "15",
+    "active": "true",
+    "created_date": "2025-09-08T00:00:00"
+  },
+  {
+    "id": "74",
+    "vehicle_id": "18",
+    "coverage_id": "6",
+    "active": "true",
+    "created_date": "2025-09-08T00:00:00"
+  },
+  {
+    "id": "75",
+    "vehicle_id": "19",
+    "coverage_id": "7",
+    "active": "true",
+    "created_date": "2025-03-26T00:00:00"
+  },
+  {
+    "id": "76",
+    "vehicle_id": "19",
+    "coverage_id": "13",
+    "active": "true",
+    "created_date": "2025-03-26T00:00:00"
+  },
+  {
+    "id": "77",
+    "vehicle_id": "20",
+    "coverage_id": "7",
+    "active": "true",
+    "created_date": "2024-03-13T00:00:00"
+  },
+  {
+    "id": "78",
+    "vehicle_id": "20",
+    "coverage_id": "5",
+    "active": "true",
+    "created_date": "2024-03-13T00:00:00"
+  },
+  {
+    "id": "79",
+    "vehicle_id": "20",
+    "coverage_id": "11",
+    "active": "true",
+    "created_date": "2024-03-13T00:00:00"
+  },
+  {
+    "id": "80",
+    "vehicle_id": "20",
+    "coverage_id": "4",
+    "active": "true",
+    "created_date": "2024-03-13T00:00:00"
+  },
+  {
+    "id": "81",
+    "vehicle_id": "20",
+    "coverage_id": "12",
+    "active": "true",
+    "created_date": "2024-03-13T00:00:00"
+  },
+  {
+    "id": "82",
+    "vehicle_id": "21",
+    "coverage_id": "14",
+    "active": "true",
+    "created_date": "2024-11-12T00:00:00"
+  },
+  {
+    "id": "83",
+    "vehicle_id": "21",
+    "coverage_id": "5",
+    "active": "true",
+    "created_date": "2024-11-12T00:00:00"
+  },
+  {
+    "id": "84",
+    "vehicle_id": "22",
+    "coverage_id": "4",
+    "active": "true",
+    "created_date": "2025-11-28T00:00:00"
+  },
+  {
+    "id": "85",
+    "vehicle_id": "22",
+    "coverage_id": "13",
+    "active": "true",
+    "created_date": "2025-11-28T00:00:00"
+  },
+  {
+    "id": "86",
+    "vehicle_id": "23",
+    "coverage_id": "6",
+    "active": "true",
+    "created_date": "2025-03-29T00:00:00"
+  },
+  {
+    "id": "87",
+    "vehicle_id": "23",
+    "coverage_id": "12",
+    "active": "false",
+    "created_date": "2025-03-29T00:00:00"
+  },
+  {
+    "id": "88",
+    "vehicle_id": "23",
+    "coverage_id": "8",
+    "active": "true",
+    "created_date": "2025-03-29T00:00:00"
+  },
+  {
+    "id": "89",
+    "vehicle_id": "23",
+    "coverage_id": "13",
+    "active": "true",
+    "created_date": "2025-03-29T00:00:00"
+  },
+  {
+    "id": "90",
+    "vehicle_id": "24",
+    "coverage_id": "15",
+    "active": "false",
+    "created_date": "2024-10-24T00:00:00"
+  },
+  {
+    "id": "91",
+    "vehicle_id": "24",
+    "coverage_id": "8",
+    "active": "true",
+    "created_date": "2024-10-24T00:00:00"
+  },
+  {
+    "id": "92",
+    "vehicle_id": "25",
+    "coverage_id": "6",
+    "active": "true",
+    "created_date": "2025-02-27T00:00:00"
+  },
+  {
+    "id": "93",
+    "vehicle_id": "25",
+    "coverage_id": "11",
+    "active": "true",
+    "created_date": "2025-02-27T00:00:00"
+  },
+  {
+    "id": "94",
+    "vehicle_id": "26",
+    "coverage_id": "11",
+    "active": "true",
+    "created_date": "2024-12-16T00:00:00"
+  },
+  {
+    "id": "95",
+    "vehicle_id": "26",
+    "coverage_id": "5",
+    "active": "true",
+    "created_date": "2024-12-16T00:00:00"
+  },
+  {
+    "id": "96",
+    "vehicle_id": "26",
+    "coverage_id": "13",
+    "active": "true",
+    "created_date": "2024-12-16T00:00:00"
+  },
+  {
+    "id": "97",
+    "vehicle_id": "27",
+    "coverage_id": "4",
+    "active": "true",
+    "created_date": "2024-02-06T00:00:00"
+  },
+  {
+    "id": "98",
+    "vehicle_id": "27",
+    "coverage_id": "7",
+    "active": "true",
+    "created_date": "2024-02-06T00:00:00"
+  },
+  {
+    "id": "99",
+    "vehicle_id": "27",
+    "coverage_id": "8",
+    "active": "true",
+    "created_date": "2024-02-06T00:00:00"
+  },
+  {
+    "id": "100",
+    "vehicle_id": "27",
+    "coverage_id": "6",
+    "active": "true",
+    "created_date": "2024-02-06T00:00:00"
+  },
+  {
+    "id": "101",
+    "vehicle_id": "27",
+    "coverage_id": "12",
+    "active": "true",
+    "created_date": "2024-02-06T00:00:00"
+  },
+  {
+    "id": "102",
+    "vehicle_id": "28",
+    "coverage_id": "12",
+    "active": "true",
+    "created_date": "2025-06-06T00:00:00"
+  },
+  {
+    "id": "103",
+    "vehicle_id": "28",
+    "coverage_id": "7",
+    "active": "true",
+    "created_date": "2025-06-06T00:00:00"
+  },
+  {
+    "id": "104",
+    "vehicle_id": "28",
+    "coverage_id": "15",
+    "active": "true",
+    "created_date": "2025-06-06T00:00:00"
+  },
+  {
+    "id": "105",
+    "vehicle_id": "28",
+    "coverage_id": "14",
+    "active": "true",
+    "created_date": "2025-06-06T00:00:00"
+  },
+  {
+    "id": "106",
+    "vehicle_id": "28",
+    "coverage_id": "4",
+    "active": "true",
+    "created_date": "2025-06-06T00:00:00"
+  },
+  {
+    "id": "107",
+    "vehicle_id": "29",
+    "coverage_id": "6",
+    "active": "true",
+    "created_date": "2025-09-09T00:00:00"
+  },
+  {
+    "id": "108",
+    "vehicle_id": "29",
+    "coverage_id": "4",
+    "active": "true",
+    "created_date": "2025-09-09T00:00:00"
+  },
+  {
+    "id": "109",
+    "vehicle_id": "30",
+    "coverage_id": "15",
+    "active": "false",
+    "created_date": "2024-02-12T00:00:00"
+  },
+  {
+    "id": "110",
+    "vehicle_id": "30",
+    "coverage_id": "4",
+    "active": "true",
+    "created_date": "2024-02-12T00:00:00"
+  },
+  {
+    "id": "111",
+    "vehicle_id": "31",
+    "coverage_id": "8",
+    "active": "true",
+    "created_date": "2025-10-03T00:00:00"
+  },
+  {
+    "id": "112",
+    "vehicle_id": "31",
+    "coverage_id": "12",
+    "active": "true",
+    "created_date": "2025-10-03T00:00:00"
+  },
+  {
+    "id": "113",
+    "vehicle_id": "31",
+    "coverage_id": "7",
+    "active": "true",
+    "created_date": "2025-10-03T00:00:00"
+  },
+  {
+    "id": "114",
+    "vehicle_id": "31",
+    "coverage_id": "4",
+    "active": "true",
+    "created_date": "2025-10-03T00:00:00"
+  },
+  {
+    "id": "115",
+    "vehicle_id": "32",
+    "coverage_id": "13",
+    "active": "true",
+    "created_date": "2025-06-06T00:00:00"
+  },
+  {
+    "id": "116",
+    "vehicle_id": "32",
+    "coverage_id": "15",
+    "active": "true",
+    "created_date": "2025-06-06T00:00:00"
+  },
+  {
+    "id": "117",
+    "vehicle_id": "32",
+    "coverage_id": "4",
+    "active": "true",
+    "created_date": "2025-06-06T00:00:00"
+  },
+  {
+    "id": "118",
+    "vehicle_id": "32",
+    "coverage_id": "5",
+    "active": "true",
+    "created_date": "2025-06-06T00:00:00"
+  },
+  {
+    "id": "119",
+    "vehicle_id": "32",
+    "coverage_id": "6",
+    "active": "true",
+    "created_date": "2025-06-06T00:00:00"
+  },
+  {
+    "id": "120",
+    "vehicle_id": "33",
+    "coverage_id": "5",
+    "active": "true",
+    "created_date": "2025-01-14T00:00:00"
+  },
+  {
+    "id": "121",
+    "vehicle_id": "33",
+    "coverage_id": "12",
+    "active": "true",
+    "created_date": "2025-01-14T00:00:00"
+  },
+  {
+    "id": "122",
+    "vehicle_id": "33",
+    "coverage_id": "14",
+    "active": "true",
+    "created_date": "2025-01-14T00:00:00"
+  },
+  {
+    "id": "123",
+    "vehicle_id": "33",
+    "coverage_id": "13",
+    "active": "true",
+    "created_date": "2025-01-14T00:00:00"
+  },
+  {
+    "id": "124",
+    "vehicle_id": "34",
+    "coverage_id": "11",
+    "active": "false",
+    "created_date": "2025-07-09T00:00:00"
+  },
+  {
+    "id": "125",
+    "vehicle_id": "34",
+    "coverage_id": "8",
+    "active": "true",
+    "created_date": "2025-07-09T00:00:00"
+  },
+  {
+    "id": "126",
+    "vehicle_id": "34",
+    "coverage_id": "6",
+    "active": "true",
+    "created_date": "2025-07-09T00:00:00"
+  },
+  {
+    "id": "127",
+    "vehicle_id": "34",
+    "coverage_id": "5",
+    "active": "true",
+    "created_date": "2025-07-09T00:00:00"
+  },
+  {
+    "id": "128",
+    "vehicle_id": "34",
+    "coverage_id": "7",
+    "active": "true",
+    "created_date": "2025-07-09T00:00:00"
+  },
+  {
+    "id": "129",
+    "vehicle_id": "35",
+    "coverage_id": "5",
+    "active": "true",
+    "created_date": "2025-09-20T00:00:00"
+  },
+  {
+    "id": "130",
+    "vehicle_id": "35",
+    "coverage_id": "8",
+    "active": "true",
+    "created_date": "2025-09-20T00:00:00"
+  },
+  {
+    "id": "131",
+    "vehicle_id": "35",
+    "coverage_id": "12",
+    "active": "true",
+    "created_date": "2025-09-20T00:00:00"
+  },
+  {
+    "id": "132",
+    "vehicle_id": "35",
+    "coverage_id": "4",
+    "active": "true",
+    "created_date": "2025-09-20T00:00:00"
+  },
+  {
+    "id": "133",
+    "vehicle_id": "35",
+    "coverage_id": "15",
+    "active": "true",
+    "created_date": "2025-09-20T00:00:00"
+  },
+  {
+    "id": "134",
+    "vehicle_id": "36",
+    "coverage_id": "5",
+    "active": "true",
+    "created_date": "2025-05-30T00:00:00"
+  },
+  {
+    "id": "135",
+    "vehicle_id": "36",
+    "coverage_id": "14",
+    "active": "true",
+    "created_date": "2025-05-30T00:00:00"
+  },
+  {
+    "id": "136",
+    "vehicle_id": "37",
+    "coverage_id": "6",
+    "active": "true",
+    "created_date": "2025-09-18T00:00:00"
+  },
+  {
+    "id": "137",
+    "vehicle_id": "37",
+    "coverage_id": "4",
+    "active": "true",
+    "created_date": "2025-09-18T00:00:00"
+  },
+  {
+    "id": "138",
+    "vehicle_id": "37",
+    "coverage_id": "14",
+    "active": "true",
+    "created_date": "2025-09-18T00:00:00"
+  },
+  {
+    "id": "139",
+    "vehicle_id": "37",
+    "coverage_id": "5",
+    "active": "false",
+    "created_date": "2025-09-18T00:00:00"
+  },
+  {
+    "id": "140",
+    "vehicle_id": "38",
+    "coverage_id": "11",
+    "active": "false",
+    "created_date": "2024-08-17T00:00:00"
+  },
+  {
+    "id": "141",
+    "vehicle_id": "38",
+    "coverage_id": "7",
+    "active": "true",
+    "created_date": "2024-08-17T00:00:00"
+  },
+  {
+    "id": "142",
+    "vehicle_id": "38",
+    "coverage_id": "15",
+    "active": "true",
+    "created_date": "2024-08-17T00:00:00"
+  },
+  {
+    "id": "143",
+    "vehicle_id": "38",
+    "coverage_id": "14",
+    "active": "true",
+    "created_date": "2024-08-17T00:00:00"
+  },
+  {
+    "id": "144",
+    "vehicle_id": "39",
+    "coverage_id": "7",
+    "active": "true",
+    "created_date": "2024-11-15T00:00:00"
+  },
+  {
+    "id": "145",
+    "vehicle_id": "39",
+    "coverage_id": "5",
+    "active": "true",
+    "created_date": "2024-11-15T00:00:00"
+  },
+  {
+    "id": "146",
+    "vehicle_id": "40",
+    "coverage_id": "11",
+    "active": "true",
+    "created_date": "2025-08-21T00:00:00"
+  },
+  {
+    "id": "147",
+    "vehicle_id": "40",
+    "coverage_id": "8",
+    "active": "true",
+    "created_date": "2025-08-21T00:00:00"
+  },
+  {
+    "id": "148",
+    "vehicle_id": "40",
+    "coverage_id": "12",
+    "active": "true",
+    "created_date": "2025-08-21T00:00:00"
+  },
+  {
+    "id": "149",
+    "vehicle_id": "40",
+    "coverage_id": "5",
+    "active": "true",
+    "created_date": "2025-08-21T00:00:00"
+  },
+  {
+    "id": "150",
+    "vehicle_id": "41",
+    "coverage_id": "8",
+    "active": "true",
+    "created_date": "2025-05-17T00:00:00"
+  },
+  {
+    "id": "151",
+    "vehicle_id": "41",
+    "coverage_id": "13",
+    "active": "true",
+    "created_date": "2025-05-17T00:00:00"
+  },
+  {
+    "id": "152",
+    "vehicle_id": "42",
+    "coverage_id": "12",
+    "active": "true",
+    "created_date": "2025-07-24T00:00:00"
+  },
+  {
+    "id": "153",
+    "vehicle_id": "42",
+    "coverage_id": "5",
+    "active": "true",
+    "created_date": "2025-07-24T00:00:00"
+  },
+  {
+    "id": "154",
+    "vehicle_id": "42",
+    "coverage_id": "8",
+    "active": "false",
+    "created_date": "2025-07-24T00:00:00"
+  },
+  {
+    "id": "155",
+    "vehicle_id": "43",
+    "coverage_id": "5",
+    "active": "true",
+    "created_date": "2024-05-30T00:00:00"
+  },
+  {
+    "id": "156",
+    "vehicle_id": "43",
+    "coverage_id": "7",
+    "active": "true",
+    "created_date": "2024-05-30T00:00:00"
+  },
+  {
+    "id": "157",
+    "vehicle_id": "44",
+    "coverage_id": "4",
+    "active": "true",
+    "created_date": "2025-09-21T00:00:00"
+  },
+  {
+    "id": "158",
+    "vehicle_id": "44",
+    "coverage_id": "15",
+    "active": "true",
+    "created_date": "2025-09-21T00:00:00"
+  },
+  {
+    "id": "159",
+    "vehicle_id": "44",
+    "coverage_id": "11",
+    "active": "true",
+    "created_date": "2025-09-21T00:00:00"
+  },
+  {
+    "id": "160",
+    "vehicle_id": "44",
+    "coverage_id": "8",
+    "active": "true",
+    "created_date": "2025-09-21T00:00:00"
+  },
+  {
+    "id": "161",
+    "vehicle_id": "44",
+    "coverage_id": "7",
+    "active": "true",
+    "created_date": "2025-09-21T00:00:00"
+  },
+  {
+    "id": "162",
+    "vehicle_id": "45",
+    "coverage_id": "4",
+    "active": "true",
+    "created_date": "2025-04-08T00:00:00"
+  },
+  {
+    "id": "163",
+    "vehicle_id": "45",
+    "coverage_id": "7",
+    "active": "true",
+    "created_date": "2025-04-08T00:00:00"
+  },
+  {
+    "id": "164",
+    "vehicle_id": "45",
+    "coverage_id": "14",
+    "active": "true",
+    "created_date": "2025-04-08T00:00:00"
+  },
+  {
+    "id": "165",
+    "vehicle_id": "46",
+    "coverage_id": "12",
+    "active": "true",
+    "created_date": "2024-08-30T00:00:00"
+  },
+  {
+    "id": "166",
+    "vehicle_id": "46",
+    "coverage_id": "7",
+    "active": "true",
+    "created_date": "2024-08-30T00:00:00"
+  },
+  {
+    "id": "167",
+    "vehicle_id": "46",
+    "coverage_id": "8",
+    "active": "true",
+    "created_date": "2024-08-30T00:00:00"
+  },
+  {
+    "id": "168",
+    "vehicle_id": "47",
+    "coverage_id": "15",
+    "active": "true",
+    "created_date": "2024-06-22T00:00:00"
+  },
+  {
+    "id": "169",
+    "vehicle_id": "47",
+    "coverage_id": "13",
+    "active": "true",
+    "created_date": "2024-06-22T00:00:00"
+  },
+  {
+    "id": "170",
+    "vehicle_id": "48",
+    "coverage_id": "5",
+    "active": "true",
+    "created_date": "2024-11-09T00:00:00"
+  },
+  {
+    "id": "171",
+    "vehicle_id": "48",
+    "coverage_id": "6",
+    "active": "true",
+    "created_date": "2024-11-09T00:00:00"
+  },
+  {
+    "id": "172",
+    "vehicle_id": "48",
+    "coverage_id": "13",
+    "active": "true",
+    "created_date": "2024-11-09T00:00:00"
+  },
+  {
+    "id": "173",
+    "vehicle_id": "48",
+    "coverage_id": "12",
+    "active": "true",
+    "created_date": "2024-11-09T00:00:00"
+  },
+  {
+    "id": "174",
+    "vehicle_id": "49",
+    "coverage_id": "8",
+    "active": "true",
+    "created_date": "2025-05-01T00:00:00"
+  },
+  {
+    "id": "175",
+    "vehicle_id": "49",
+    "coverage_id": "4",
+    "active": "true",
+    "created_date": "2025-05-01T00:00:00"
+  },
+  {
+    "id": "176",
+    "vehicle_id": "50",
+    "coverage_id": "12",
+    "active": "true",
+    "created_date": "2025-11-02T00:00:00"
+  },
+  {
+    "id": "177",
+    "vehicle_id": "50",
+    "coverage_id": "8",
+    "active": "true",
+    "created_date": "2025-11-02T00:00:00"
+  },
+  {
+    "id": "178",
+    "vehicle_id": "50",
+    "coverage_id": "13",
+    "active": "true",
+    "created_date": "2025-11-02T00:00:00"
+  },
+  {
+    "id": "179",
+    "vehicle_id": "50",
+    "coverage_id": "15",
+    "active": "true",
+    "created_date": "2025-11-02T00:00:00"
+  },
+  {
+    "id": "180",
+    "vehicle_id": "51",
+    "coverage_id": "5",
+    "active": "true",
+    "created_date": "2025-07-27T00:00:00"
+  },
+  {
+    "id": "181",
+    "vehicle_id": "51",
+    "coverage_id": "4",
+    "active": "true",
+    "created_date": "2025-07-27T00:00:00"
+  },
+  {
+    "id": "182",
+    "vehicle_id": "51",
+    "coverage_id": "13",
+    "active": "true",
+    "created_date": "2025-07-27T00:00:00"
+  },
+  {
+    "id": "183",
+    "vehicle_id": "52",
+    "coverage_id": "12",
+    "active": "true",
+    "created_date": "2024-06-14T00:00:00"
+  },
+  {
+    "id": "184",
+    "vehicle_id": "52",
+    "coverage_id": "8",
+    "active": "true",
+    "created_date": "2024-06-14T00:00:00"
+  },
+  {
+    "id": "185",
+    "vehicle_id": "52",
+    "coverage_id": "5",
+    "active": "true",
+    "created_date": "2024-06-14T00:00:00"
+  },
+  {
+    "id": "186",
+    "vehicle_id": "52",
+    "coverage_id": "11",
+    "active": "false",
+    "created_date": "2024-06-14T00:00:00"
+  },
+  {
+    "id": "187",
+    "vehicle_id": "53",
+    "coverage_id": "12",
+    "active": "true",
+    "created_date": "2024-08-22T00:00:00"
+  },
+  {
+    "id": "188",
+    "vehicle_id": "53",
+    "coverage_id": "13",
+    "active": "true",
+    "created_date": "2024-08-22T00:00:00"
+  },
+  {
+    "id": "189",
+    "vehicle_id": "53",
+    "coverage_id": "8",
+    "active": "true",
+    "created_date": "2024-08-22T00:00:00"
+  },
+  {
+    "id": "190",
+    "vehicle_id": "53",
+    "coverage_id": "4",
+    "active": "true",
+    "created_date": "2024-08-22T00:00:00"
+  },
+  {
+    "id": "191",
+    "vehicle_id": "54",
+    "coverage_id": "12",
+    "active": "true",
+    "created_date": "2025-05-03T00:00:00"
+  },
+  {
+    "id": "192",
+    "vehicle_id": "54",
+    "coverage_id": "4",
+    "active": "true",
+    "created_date": "2025-05-03T00:00:00"
+  },
+  {
+    "id": "193",
+    "vehicle_id": "55",
+    "coverage_id": "14",
+    "active": "true",
+    "created_date": "2024-09-21T00:00:00"
+  },
+  {
+    "id": "194",
+    "vehicle_id": "55",
+    "coverage_id": "6",
+    "active": "true",
+    "created_date": "2024-09-21T00:00:00"
+  },
+  {
+    "id": "195",
+    "vehicle_id": "55",
+    "coverage_id": "11",
+    "active": "true",
+    "created_date": "2024-09-21T00:00:00"
+  },
+  {
+    "id": "196",
+    "vehicle_id": "55",
+    "coverage_id": "7",
+    "active": "true",
+    "created_date": "2024-09-21T00:00:00"
+  },
+  {
+    "id": "197",
+    "vehicle_id": "56",
+    "coverage_id": "8",
+    "active": "true",
+    "created_date": "2024-08-24T00:00:00"
+  },
+  {
+    "id": "198",
+    "vehicle_id": "56",
+    "coverage_id": "7",
+    "active": "true",
+    "created_date": "2024-08-24T00:00:00"
+  },
+  {
+    "id": "199",
+    "vehicle_id": "57",
+    "coverage_id": "13",
+    "active": "true",
+    "created_date": "2024-06-29T00:00:00"
+  },
+  {
+    "id": "200",
+    "vehicle_id": "57",
+    "coverage_id": "15",
+    "active": "true",
+    "created_date": "2024-06-29T00:00:00"
+  },
+  {
+    "id": "201",
+    "vehicle_id": "57",
+    "coverage_id": "14",
+    "active": "true",
+    "created_date": "2024-06-29T00:00:00"
+  },
+  {
+    "id": "202",
+    "vehicle_id": "57",
+    "coverage_id": "11",
+    "active": "true",
+    "created_date": "2024-06-29T00:00:00"
+  },
+  {
+    "id": "203",
+    "vehicle_id": "57",
+    "coverage_id": "8",
+    "active": "true",
+    "created_date": "2024-06-29T00:00:00"
+  },
+  {
+    "id": "204",
+    "vehicle_id": "58",
+    "coverage_id": "13",
+    "active": "true",
+    "created_date": "2024-05-05T00:00:00"
+  },
+  {
+    "id": "205",
+    "vehicle_id": "58",
+    "coverage_id": "14",
+    "active": "true",
+    "created_date": "2024-05-05T00:00:00"
+  },
+  {
+    "id": "206",
+    "vehicle_id": "58",
+    "coverage_id": "4",
+    "active": "true",
+    "created_date": "2024-05-05T00:00:00"
+  },
+  {
+    "id": "207",
+    "vehicle_id": "58",
+    "coverage_id": "12",
+    "active": "true",
+    "created_date": "2024-05-05T00:00:00"
+  },
+  {
+    "id": "208",
+    "vehicle_id": "58",
+    "coverage_id": "11",
+    "active": "true",
+    "created_date": "2024-05-05T00:00:00"
+  },
+  {
+    "id": "209",
+    "vehicle_id": "59",
+    "coverage_id": "12",
+    "active": "true",
+    "created_date": "2024-02-17T00:00:00"
+  },
+  {
+    "id": "210",
+    "vehicle_id": "59",
+    "coverage_id": "13",
+    "active": "true",
+    "created_date": "2024-02-17T00:00:00"
+  },
+  {
+    "id": "211",
+    "vehicle_id": "60",
+    "coverage_id": "12",
+    "active": "true",
+    "created_date": "2024-01-22T00:00:00"
+  },
+  {
+    "id": "212",
+    "vehicle_id": "60",
+    "coverage_id": "14",
+    "active": "true",
+    "created_date": "2024-01-22T00:00:00"
+  },
+  {
+    "id": "213",
+    "vehicle_id": "60",
+    "coverage_id": "11",
+    "active": "true",
+    "created_date": "2024-01-22T00:00:00"
+  },
+  {
+    "id": "214",
+    "vehicle_id": "60",
+    "coverage_id": "13",
+    "active": "true",
+    "created_date": "2024-01-22T00:00:00"
+  }
+]
