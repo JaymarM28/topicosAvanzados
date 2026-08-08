@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(()=>{setTimeout(()=>{const{markmap:S,mm:Q}=window,$=new S.Toolbar;$.attach(Q);const I=$.render();I.setAttribute("style","position:absolute;bottom:20px;right:20px"),document.body.append(I)})})()</script><script>((l,U,M,R)=>{const N=l();window.mm=N.Markmap.create("svg#mindmap",(U||N.deriveOptions)(R),M),window.matchMedia("(prefers-color-scheme: dark)").matches&&document.documentElement.classList.add("markmap-dark")})(()=>window.markmap,null,{"content":"DataOps 101","children":[{"content":"&#x1f9e0; &#xbf;Qu&#xe9; es DataOps?","children":[{"content":"<strong>Definici&#xf3;n:</strong> Aplicaci&#xf3;n de metodolog&#xed;as &#xe1;giles y DevOps a la anal&#xed;tica de datos.","children":[],"payload":{"tag":"li","lines":"3,4"}},{"content":"<strong>ADN de la disciplina:</strong>","children":[{"content":"<em>Agile</em> (Iteraci&#xf3;n y velocidad)","children":[],"payload":{"tag":"li","lines":"5,6"}},{"content":"<em>DevOps</em> (Automatizaci&#xf3;n y CI/CD)","children":[],"payload":{"tag":"li","lines":"6,7"}},{"content":"<em>Lean Manufacturing</em> (Control de calidad estad&#xed;stico)","children":[],"payload":{"tag":"li","lines":"7,8"}}],"payload":{"tag":"li","lines":"4,8"}},{"content":"<strong>El Objetivo (&quot;Amazon Speed&quot;):</strong> Entrega r&#xe1;pida, continua y confiable de insights anal&#xed;ticos sin sacrificar calidad.","children":[],"payload":{"tag":"li","lines":"8,9"}},{"content":"<strong>La Ecuaci&#xf3;n:</strong> CI/CD + Data Quality + Collaboration.","children":[],"payload":{"tag":"li","lines":"9,11"}}],"payload":{"tag":"h2","lines":"2,3"}},{"content":"&#x1f4dc; Principios Clave (DataOps Manifesto)","children":[{"content":"<strong>Satisfacci&#xf3;n del cliente:</strong> Las entregas tempranas y continuas son la prioridad absoluta.","children":[],"payload":{"tag":"li","lines":"12,13"}},{"content":"<strong>Valor por encima del c&#xf3;digo:</strong> Se valora la anal&#xed;tica que funciona y aporta negocio, no solo los pipelines bonitos.","children":[],"payload":{"tag":"li","lines":"13,14"}},{"content":"<strong>Version Control de TODO:</strong> El c&#xf3;digo, la configuraci&#xf3;n y el esquema de datos deben estar versionados.","children":[],"payload":{"tag":"li","lines":"14,15"}},{"content":"<strong>Entornos aislados y desechables:</strong> Los ingenieros necesitan espacios seguros para experimentar sin romper Producci&#xf3;n.","children":[],"payload":{"tag":"li","lines":"15,16"}},{"content":"<strong>Cero hero&#xed;smos:</strong> Los procesos deben depender de sistemas automatizados, no de un individuo trabajando de madrugada.","children":[],"payload":{"tag":"li","lines":"16,18"}}],"payload":{"tag":"h2","lines":"11,12"}},{"content":"&#x2699;&#xfe0f; Los 7 Pasos para Implementarlo (DataKitchen)","children":[{"content":"1. <strong>Add logic and tests:</strong> Pruebas automatizadas en los datos (inputs/outputs) y en el c&#xf3;digo.","children":[],"payload":{"tag":"li","lines":"19,20","listIndex":1}},{"content":"2. <strong>Version Control E2E:</strong> Todo el proceso, desde la ingesta hasta la visualizaci&#xf3;n, vive en Git.","children":[],"payload":{"tag":"li","lines":"20,21","listIndex":2}},{"content":"3. <strong>Branch &amp; Merge:</strong> Trabajar en copias aisladas del c&#xf3;digo/datos y fusionarlas sin pisar el trabajo de otros.","children":[],"payload":{"tag":"li","lines":"21,22","listIndex":3}},{"content":"4. <strong>Multiple Environments:</strong> Separaci&#xf3;n estricta de Dev, QA y Prod.","children":[],"payload":{"tag":"li","lines":"22,23","listIndex":4}},{"content":"5. <strong>Reuse &amp; Containerize:</strong> Envolver procesos (Docker) y reutilizar c&#xf3;digo para mantener coherencia.","children":[],"payload":{"tag":"li","lines":"23,24","listIndex":5}},{"content":"6. <strong>Parameterize:</strong> Procesos flexibles que puedan ejecutarse en partes o bajo distintas condiciones.","children":[],"payload":{"tag":"li","lines":"24,25","listIndex":6}},{"content":"7. <strong>Simple Storage:</strong> Almacenamiento &#xe1;gil para crear Data Marts o entornos ef&#xed;meros bajo demanda.","children":[],"payload":{"tag":"li","lines":"25,27","listIndex":7}}],"payload":{"tag":"h2","lines":"18,19"}},{"content":"&#x1f3af; Beneficios y Casos de Uso","children":[{"content":"<strong>Beneficios:</strong>","children":[{"content":"Reducci&#xf3;n dr&#xe1;stica del <em>cycle time</em> (tiempo desde la idea hasta el dashboard).","children":[],"payload":{"tag":"li","lines":"29,30"}},{"content":"Alta confianza en los datos (<em>Data Trustworthiness</em>).","children":[],"payload":{"tag":"li","lines":"30,31"}},{"content":"Eliminaci&#xf3;n de cuellos de botella mediante flujos automatizados.","children":[],"payload":{"tag":"li","lines":"31,32"}}],"payload":{"tag":"li","lines":"28,32"}},{"content":"<strong>Escenarios de uso comunes:</strong>","children":[{"content":"<strong>Migraciones seguras:</strong> Desplegar cambios de esquema en bases de datos con Flyway sin tirar el sistema.","children":[],"payload":{"tag":"li","lines":"33,34"}},{"content":"<strong>Pipelines ETL/ELT:</strong> Ingesta y modelado automatizado hacia Snowflake usando dbt.","children":[],"payload":{"tag":"li","lines":"34,35"}},{"content":"<strong>MLOps Preparation:</strong> Suministrar datos limpios, testeados y versionados a los Data Scientists.","children":[],"payload":{"tag":"li","lines":"35,36"}},{"content":"<strong>Self-Service BI:</strong> Tableros de visualizaci&#xf3;n que se actualizan solos al pasar un Pull Request.","children":[],"payload":{"tag":"li","lines":"36,37"}}],"payload":{"tag":"li","lines":"32,37"}}],"payload":{"tag":"h2","lines":"27,28"}}],"payload":{"tag":"h1","lines":"0,1"}},null)</script>
+</body>
+</html>
