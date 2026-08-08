@@ -1,0 +1,1262 @@
+[
+  {
+    "id": "1",
+    "policy_id": "1",
+    "due_date": "2025-10-29",
+    "minimum_payment": "319.90",
+    "created_date": "2025-10-14T00:00:00",
+    "balance": "349.89",
+    "status": "Pending"
+  },
+  {
+    "id": "2",
+    "policy_id": "2",
+    "due_date": "2024-02-29",
+    "minimum_payment": "340.11",
+    "created_date": "2024-02-14T00:00:00",
+    "balance": "478.99",
+    "status": "Overdue"
+  },
+  {
+    "id": "3",
+    "policy_id": "2",
+    "due_date": "2024-03-30",
+    "minimum_payment": "454.99",
+    "created_date": "2024-03-15T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "4",
+    "policy_id": "2",
+    "due_date": "2024-04-29",
+    "minimum_payment": "548.70",
+    "created_date": "2024-04-14T00:00:00",
+    "balance": "434.06",
+    "status": "Pending"
+  },
+  {
+    "id": "5",
+    "policy_id": "2",
+    "due_date": "2024-05-29",
+    "minimum_payment": "358.27",
+    "created_date": "2024-05-14T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "6",
+    "policy_id": "2",
+    "due_date": "2024-06-28",
+    "minimum_payment": "221.12",
+    "created_date": "2024-06-13T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "7",
+    "policy_id": "2",
+    "due_date": "2024-07-28",
+    "minimum_payment": "485.65",
+    "created_date": "2024-07-13T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "8",
+    "policy_id": "3",
+    "due_date": "2024-10-09",
+    "minimum_payment": "221.77",
+    "created_date": "2024-09-24T00:00:00",
+    "balance": "507.98",
+    "status": "Pending"
+  },
+  {
+    "id": "9",
+    "policy_id": "3",
+    "due_date": "2024-11-08",
+    "minimum_payment": "348.27",
+    "created_date": "2024-10-24T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "10",
+    "policy_id": "3",
+    "due_date": "2024-12-08",
+    "minimum_payment": "92.64",
+    "created_date": "2024-11-23T00:00:00",
+    "balance": "183.34",
+    "status": "Pending"
+  },
+  {
+    "id": "11",
+    "policy_id": "3",
+    "due_date": "2025-01-07",
+    "minimum_payment": "421.46",
+    "created_date": "2024-12-23T00:00:00",
+    "balance": "591.79",
+    "status": "Pending"
+  },
+  {
+    "id": "12",
+    "policy_id": "3",
+    "due_date": "2025-02-06",
+    "minimum_payment": "440.84",
+    "created_date": "2025-01-22T00:00:00",
+    "balance": "79.71",
+    "status": "Pending"
+  },
+  {
+    "id": "13",
+    "policy_id": "3",
+    "due_date": "2025-03-08",
+    "minimum_payment": "442.54",
+    "created_date": "2025-02-21T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "14",
+    "policy_id": "4",
+    "due_date": "2024-11-12",
+    "minimum_payment": "545.32",
+    "created_date": "2024-10-28T00:00:00",
+    "balance": "543.70",
+    "status": "Pending"
+  },
+  {
+    "id": "15",
+    "policy_id": "4",
+    "due_date": "2024-12-12",
+    "minimum_payment": "282.63",
+    "created_date": "2024-11-27T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "16",
+    "policy_id": "4",
+    "due_date": "2025-01-11",
+    "minimum_payment": "479.63",
+    "created_date": "2024-12-27T00:00:00",
+    "balance": "259.62",
+    "status": "Pending"
+  },
+  {
+    "id": "17",
+    "policy_id": "4",
+    "due_date": "2025-02-10",
+    "minimum_payment": "551.29",
+    "created_date": "2025-01-26T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "18",
+    "policy_id": "4",
+    "due_date": "2025-03-12",
+    "minimum_payment": "119.32",
+    "created_date": "2025-02-25T00:00:00",
+    "balance": "576.28",
+    "status": "Overdue"
+  },
+  {
+    "id": "19",
+    "policy_id": "4",
+    "due_date": "2025-04-11",
+    "minimum_payment": "294.83",
+    "created_date": "2025-03-27T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "20",
+    "policy_id": "5",
+    "due_date": "2025-04-30",
+    "minimum_payment": "584.44",
+    "created_date": "2025-04-15T00:00:00",
+    "balance": "415.33",
+    "status": "Overdue"
+  },
+  {
+    "id": "21",
+    "policy_id": "5",
+    "due_date": "2025-05-30",
+    "minimum_payment": "286.59",
+    "created_date": "2025-05-15T00:00:00",
+    "balance": "71.67",
+    "status": "Overdue"
+  },
+  {
+    "id": "22",
+    "policy_id": "5",
+    "due_date": "2025-06-29",
+    "minimum_payment": "503.82",
+    "created_date": "2025-06-14T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "23",
+    "policy_id": "5",
+    "due_date": "2025-07-29",
+    "minimum_payment": "226.52",
+    "created_date": "2025-07-14T00:00:00",
+    "balance": "362.49",
+    "status": "Pending"
+  },
+  {
+    "id": "24",
+    "policy_id": "5",
+    "due_date": "2025-08-28",
+    "minimum_payment": "193.36",
+    "created_date": "2025-08-13T00:00:00",
+    "balance": "140.69",
+    "status": "Pending"
+  },
+  {
+    "id": "25",
+    "policy_id": "5",
+    "due_date": "2025-09-27",
+    "minimum_payment": "64.23",
+    "created_date": "2025-09-12T00:00:00",
+    "balance": "227.62",
+    "status": "Overdue"
+  },
+  {
+    "id": "26",
+    "policy_id": "6",
+    "due_date": "2024-07-18",
+    "minimum_payment": "359.83",
+    "created_date": "2024-07-03T00:00:00",
+    "balance": "476.54",
+    "status": "Overdue"
+  },
+  {
+    "id": "27",
+    "policy_id": "7",
+    "due_date": "2024-08-27",
+    "minimum_payment": "113.74",
+    "created_date": "2024-08-12T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "28",
+    "policy_id": "7",
+    "due_date": "2024-09-26",
+    "minimum_payment": "511.96",
+    "created_date": "2024-09-11T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "29",
+    "policy_id": "7",
+    "due_date": "2024-10-26",
+    "minimum_payment": "581.31",
+    "created_date": "2024-10-11T00:00:00",
+    "balance": "530.79",
+    "status": "Pending"
+  },
+  {
+    "id": "30",
+    "policy_id": "8",
+    "due_date": "2024-10-27",
+    "minimum_payment": "343.00",
+    "created_date": "2024-10-12T00:00:00",
+    "balance": "54.39",
+    "status": "Overdue"
+  },
+  {
+    "id": "31",
+    "policy_id": "9",
+    "due_date": "2025-01-11",
+    "minimum_payment": "249.76",
+    "created_date": "2024-12-27T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "32",
+    "policy_id": "9",
+    "due_date": "2025-02-10",
+    "minimum_payment": "137.26",
+    "created_date": "2025-01-26T00:00:00",
+    "balance": "247.41",
+    "status": "Pending"
+  },
+  {
+    "id": "33",
+    "policy_id": "9",
+    "due_date": "2025-03-12",
+    "minimum_payment": "455.66",
+    "created_date": "2025-02-25T00:00:00",
+    "balance": "512.21",
+    "status": "Overdue"
+  },
+  {
+    "id": "34",
+    "policy_id": "10",
+    "due_date": "2025-06-06",
+    "minimum_payment": "196.51",
+    "created_date": "2025-05-22T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "35",
+    "policy_id": "10",
+    "due_date": "2025-07-06",
+    "minimum_payment": "445.83",
+    "created_date": "2025-06-21T00:00:00",
+    "balance": "141.73",
+    "status": "Overdue"
+  },
+  {
+    "id": "36",
+    "policy_id": "10",
+    "due_date": "2025-08-05",
+    "minimum_payment": "290.53",
+    "created_date": "2025-07-21T00:00:00",
+    "balance": "477.05",
+    "status": "Pending"
+  },
+  {
+    "id": "37",
+    "policy_id": "10",
+    "due_date": "2025-09-04",
+    "minimum_payment": "224.15",
+    "created_date": "2025-08-20T00:00:00",
+    "balance": "111.78",
+    "status": "Pending"
+  },
+  {
+    "id": "38",
+    "policy_id": "10",
+    "due_date": "2025-10-04",
+    "minimum_payment": "305.46",
+    "created_date": "2025-09-19T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "39",
+    "policy_id": "10",
+    "due_date": "2025-11-03",
+    "minimum_payment": "72.36",
+    "created_date": "2025-10-19T00:00:00",
+    "balance": "141.91",
+    "status": "Pending"
+  },
+  {
+    "id": "40",
+    "policy_id": "11",
+    "due_date": "2025-03-19",
+    "minimum_payment": "345.92",
+    "created_date": "2025-03-04T00:00:00",
+    "balance": "574.01",
+    "status": "Overdue"
+  },
+  {
+    "id": "41",
+    "policy_id": "12",
+    "due_date": "2024-03-18",
+    "minimum_payment": "103.51",
+    "created_date": "2024-03-03T00:00:00",
+    "balance": "381.75",
+    "status": "Pending"
+  },
+  {
+    "id": "42",
+    "policy_id": "12",
+    "due_date": "2024-04-17",
+    "minimum_payment": "162.27",
+    "created_date": "2024-04-02T00:00:00",
+    "balance": "432.31",
+    "status": "Pending"
+  },
+  {
+    "id": "43",
+    "policy_id": "12",
+    "due_date": "2024-05-17",
+    "minimum_payment": "63.57",
+    "created_date": "2024-05-02T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "44",
+    "policy_id": "12",
+    "due_date": "2024-06-16",
+    "minimum_payment": "443.36",
+    "created_date": "2024-06-01T00:00:00",
+    "balance": "178.24",
+    "status": "Overdue"
+  },
+  {
+    "id": "45",
+    "policy_id": "12",
+    "due_date": "2024-07-16",
+    "minimum_payment": "166.83",
+    "created_date": "2024-07-01T00:00:00",
+    "balance": "266.89",
+    "status": "Pending"
+  },
+  {
+    "id": "46",
+    "policy_id": "12",
+    "due_date": "2024-08-15",
+    "minimum_payment": "216.32",
+    "created_date": "2024-07-31T00:00:00",
+    "balance": "509.26",
+    "status": "Pending"
+  },
+  {
+    "id": "47",
+    "policy_id": "13",
+    "due_date": "2025-01-17",
+    "minimum_payment": "469.36",
+    "created_date": "2025-01-02T00:00:00",
+    "balance": "246.70",
+    "status": "Overdue"
+  },
+  {
+    "id": "48",
+    "policy_id": "13",
+    "due_date": "2025-02-16",
+    "minimum_payment": "252.16",
+    "created_date": "2025-02-01T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "49",
+    "policy_id": "13",
+    "due_date": "2025-03-18",
+    "minimum_payment": "505.04",
+    "created_date": "2025-03-03T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "50",
+    "policy_id": "13",
+    "due_date": "2025-04-17",
+    "minimum_payment": "525.16",
+    "created_date": "2025-04-02T00:00:00",
+    "balance": "519.72",
+    "status": "Overdue"
+  },
+  {
+    "id": "51",
+    "policy_id": "13",
+    "due_date": "2025-05-17",
+    "minimum_payment": "242.28",
+    "created_date": "2025-05-02T00:00:00",
+    "balance": "324.32",
+    "status": "Overdue"
+  },
+  {
+    "id": "52",
+    "policy_id": "13",
+    "due_date": "2025-06-16",
+    "minimum_payment": "514.90",
+    "created_date": "2025-06-01T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "53",
+    "policy_id": "14",
+    "due_date": "2024-11-28",
+    "minimum_payment": "97.98",
+    "created_date": "2024-11-13T00:00:00",
+    "balance": "260.59",
+    "status": "Pending"
+  },
+  {
+    "id": "54",
+    "policy_id": "15",
+    "due_date": "2025-01-13",
+    "minimum_payment": "450.50",
+    "created_date": "2024-12-29T00:00:00",
+    "balance": "100.78",
+    "status": "Pending"
+  },
+  {
+    "id": "55",
+    "policy_id": "15",
+    "due_date": "2025-02-12",
+    "minimum_payment": "495.01",
+    "created_date": "2025-01-28T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "56",
+    "policy_id": "15",
+    "due_date": "2025-03-14",
+    "minimum_payment": "310.63",
+    "created_date": "2025-02-27T00:00:00",
+    "balance": "314.59",
+    "status": "Pending"
+  },
+  {
+    "id": "57",
+    "policy_id": "16",
+    "due_date": "2024-07-01",
+    "minimum_payment": "497.21",
+    "created_date": "2024-06-16T00:00:00",
+    "balance": "397.05",
+    "status": "Overdue"
+  },
+  {
+    "id": "58",
+    "policy_id": "16",
+    "due_date": "2024-07-31",
+    "minimum_payment": "103.50",
+    "created_date": "2024-07-16T00:00:00",
+    "balance": "434.10",
+    "status": "Pending"
+  },
+  {
+    "id": "59",
+    "policy_id": "16",
+    "due_date": "2024-08-30",
+    "minimum_payment": "149.38",
+    "created_date": "2024-08-15T00:00:00",
+    "balance": "376.47",
+    "status": "Overdue"
+  },
+  {
+    "id": "60",
+    "policy_id": "16",
+    "due_date": "2024-09-29",
+    "minimum_payment": "428.03",
+    "created_date": "2024-09-14T00:00:00",
+    "balance": "57.55",
+    "status": "Pending"
+  },
+  {
+    "id": "61",
+    "policy_id": "16",
+    "due_date": "2024-10-29",
+    "minimum_payment": "261.30",
+    "created_date": "2024-10-14T00:00:00",
+    "balance": "221.32",
+    "status": "Overdue"
+  },
+  {
+    "id": "62",
+    "policy_id": "16",
+    "due_date": "2024-11-28",
+    "minimum_payment": "435.19",
+    "created_date": "2024-11-13T00:00:00",
+    "balance": "353.30",
+    "status": "Pending"
+  },
+  {
+    "id": "63",
+    "policy_id": "17",
+    "due_date": "2025-03-21",
+    "minimum_payment": "505.77",
+    "created_date": "2025-03-06T00:00:00",
+    "balance": "600.05",
+    "status": "Pending"
+  },
+  {
+    "id": "64",
+    "policy_id": "17",
+    "due_date": "2025-04-20",
+    "minimum_payment": "79.54",
+    "created_date": "2025-04-05T00:00:00",
+    "balance": "359.97",
+    "status": "Overdue"
+  },
+  {
+    "id": "65",
+    "policy_id": "17",
+    "due_date": "2025-05-20",
+    "minimum_payment": "496.26",
+    "created_date": "2025-05-05T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "66",
+    "policy_id": "18",
+    "due_date": "2024-06-28",
+    "minimum_payment": "56.39",
+    "created_date": "2024-06-13T00:00:00",
+    "balance": "586.45",
+    "status": "Pending"
+  },
+  {
+    "id": "67",
+    "policy_id": "18",
+    "due_date": "2024-07-28",
+    "minimum_payment": "206.81",
+    "created_date": "2024-07-13T00:00:00",
+    "balance": "161.83",
+    "status": "Overdue"
+  },
+  {
+    "id": "68",
+    "policy_id": "18",
+    "due_date": "2024-08-27",
+    "minimum_payment": "94.31",
+    "created_date": "2024-08-12T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "69",
+    "policy_id": "18",
+    "due_date": "2024-09-26",
+    "minimum_payment": "532.55",
+    "created_date": "2024-09-11T00:00:00",
+    "balance": "390.04",
+    "status": "Pending"
+  },
+  {
+    "id": "70",
+    "policy_id": "18",
+    "due_date": "2024-10-26",
+    "minimum_payment": "592.27",
+    "created_date": "2024-10-11T00:00:00",
+    "balance": "278.40",
+    "status": "Overdue"
+  },
+  {
+    "id": "71",
+    "policy_id": "18",
+    "due_date": "2024-11-25",
+    "minimum_payment": "200.15",
+    "created_date": "2024-11-10T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "72",
+    "policy_id": "19",
+    "due_date": "2025-08-30",
+    "minimum_payment": "66.35",
+    "created_date": "2025-08-15T00:00:00",
+    "balance": "177.44",
+    "status": "Overdue"
+  },
+  {
+    "id": "73",
+    "policy_id": "19",
+    "due_date": "2025-09-29",
+    "minimum_payment": "423.52",
+    "created_date": "2025-09-14T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "74",
+    "policy_id": "19",
+    "due_date": "2025-10-29",
+    "minimum_payment": "433.54",
+    "created_date": "2025-10-14T00:00:00",
+    "balance": "551.89",
+    "status": "Pending"
+  },
+  {
+    "id": "75",
+    "policy_id": "20",
+    "due_date": "2024-11-27",
+    "minimum_payment": "362.51",
+    "created_date": "2024-11-12T00:00:00",
+    "balance": "387.24",
+    "status": "Overdue"
+  },
+  {
+    "id": "76",
+    "policy_id": "21",
+    "due_date": "2024-12-21",
+    "minimum_payment": "551.31",
+    "created_date": "2024-12-06T00:00:00",
+    "balance": "336.93",
+    "status": "Pending"
+  },
+  {
+    "id": "77",
+    "policy_id": "21",
+    "due_date": "2025-01-20",
+    "minimum_payment": "238.21",
+    "created_date": "2025-01-05T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "78",
+    "policy_id": "21",
+    "due_date": "2025-02-19",
+    "minimum_payment": "592.52",
+    "created_date": "2025-02-04T00:00:00",
+    "balance": "284.32",
+    "status": "Overdue"
+  },
+  {
+    "id": "79",
+    "policy_id": "21",
+    "due_date": "2025-03-21",
+    "minimum_payment": "145.65",
+    "created_date": "2025-03-06T00:00:00",
+    "balance": "265.44",
+    "status": "Overdue"
+  },
+  {
+    "id": "80",
+    "policy_id": "21",
+    "due_date": "2025-04-20",
+    "minimum_payment": "162.06",
+    "created_date": "2025-04-05T00:00:00",
+    "balance": "343.51",
+    "status": "Overdue"
+  },
+  {
+    "id": "81",
+    "policy_id": "21",
+    "due_date": "2025-05-20",
+    "minimum_payment": "263.47",
+    "created_date": "2025-05-05T00:00:00",
+    "balance": "391.64",
+    "status": "Overdue"
+  },
+  {
+    "id": "82",
+    "policy_id": "22",
+    "due_date": "2024-08-01",
+    "minimum_payment": "521.36",
+    "created_date": "2024-07-17T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "83",
+    "policy_id": "22",
+    "due_date": "2024-08-31",
+    "minimum_payment": "600.85",
+    "created_date": "2024-08-16T00:00:00",
+    "balance": "433.91",
+    "status": "Overdue"
+  },
+  {
+    "id": "84",
+    "policy_id": "22",
+    "due_date": "2024-09-30",
+    "minimum_payment": "546.02",
+    "created_date": "2024-09-15T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "85",
+    "policy_id": "23",
+    "due_date": "2025-06-28",
+    "minimum_payment": "211.03",
+    "created_date": "2025-06-13T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "86",
+    "policy_id": "24",
+    "due_date": "2025-02-06",
+    "minimum_payment": "89.03",
+    "created_date": "2025-01-22T00:00:00",
+    "balance": "495.40",
+    "status": "Pending"
+  },
+  {
+    "id": "87",
+    "policy_id": "25",
+    "due_date": "2024-07-31",
+    "minimum_payment": "88.32",
+    "created_date": "2024-07-16T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "88",
+    "policy_id": "25",
+    "due_date": "2024-08-30",
+    "minimum_payment": "171.93",
+    "created_date": "2024-08-15T00:00:00",
+    "balance": "478.07",
+    "status": "Pending"
+  },
+  {
+    "id": "89",
+    "policy_id": "25",
+    "due_date": "2024-09-29",
+    "minimum_payment": "367.01",
+    "created_date": "2024-09-14T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "90",
+    "policy_id": "26",
+    "due_date": "2024-11-21",
+    "minimum_payment": "541.40",
+    "created_date": "2024-11-06T00:00:00",
+    "balance": "514.10",
+    "status": "Overdue"
+  },
+  {
+    "id": "91",
+    "policy_id": "27",
+    "due_date": "2025-01-23",
+    "minimum_payment": "175.38",
+    "created_date": "2025-01-08T00:00:00",
+    "balance": "274.97",
+    "status": "Overdue"
+  },
+  {
+    "id": "92",
+    "policy_id": "28",
+    "due_date": "2024-08-21",
+    "minimum_payment": "556.17",
+    "created_date": "2024-08-06T00:00:00",
+    "balance": "343.75",
+    "status": "Pending"
+  },
+  {
+    "id": "93",
+    "policy_id": "29",
+    "due_date": "2024-07-24",
+    "minimum_payment": "92.70",
+    "created_date": "2024-07-09T00:00:00",
+    "balance": "281.32",
+    "status": "Pending"
+  },
+  {
+    "id": "94",
+    "policy_id": "30",
+    "due_date": "2024-08-18",
+    "minimum_payment": "62.22",
+    "created_date": "2024-08-03T00:00:00",
+    "balance": "150.79",
+    "status": "Pending"
+  },
+  {
+    "id": "95",
+    "policy_id": "30",
+    "due_date": "2024-09-17",
+    "minimum_payment": "212.05",
+    "created_date": "2024-09-02T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "96",
+    "policy_id": "30",
+    "due_date": "2024-10-17",
+    "minimum_payment": "148.89",
+    "created_date": "2024-10-02T00:00:00",
+    "balance": "385.95",
+    "status": "Overdue"
+  },
+  {
+    "id": "97",
+    "policy_id": "30",
+    "due_date": "2024-11-16",
+    "minimum_payment": "229.22",
+    "created_date": "2024-11-01T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "98",
+    "policy_id": "30",
+    "due_date": "2024-12-16",
+    "minimum_payment": "410.19",
+    "created_date": "2024-12-01T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "99",
+    "policy_id": "30",
+    "due_date": "2025-01-15",
+    "minimum_payment": "88.06",
+    "created_date": "2024-12-31T00:00:00",
+    "balance": "231.53",
+    "status": "Overdue"
+  },
+  {
+    "id": "100",
+    "policy_id": "31",
+    "due_date": "2024-08-02",
+    "minimum_payment": "338.42",
+    "created_date": "2024-07-18T00:00:00",
+    "balance": "122.80",
+    "status": "Pending"
+  },
+  {
+    "id": "101",
+    "policy_id": "31",
+    "due_date": "2024-09-01",
+    "minimum_payment": "224.92",
+    "created_date": "2024-08-17T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "102",
+    "policy_id": "31",
+    "due_date": "2024-10-01",
+    "minimum_payment": "568.59",
+    "created_date": "2024-09-16T00:00:00",
+    "balance": "409.53",
+    "status": "Pending"
+  },
+  {
+    "id": "103",
+    "policy_id": "31",
+    "due_date": "2024-10-31",
+    "minimum_payment": "549.80",
+    "created_date": "2024-10-16T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "104",
+    "policy_id": "31",
+    "due_date": "2024-11-30",
+    "minimum_payment": "314.34",
+    "created_date": "2024-11-15T00:00:00",
+    "balance": "520.01",
+    "status": "Overdue"
+  },
+  {
+    "id": "105",
+    "policy_id": "31",
+    "due_date": "2024-12-30",
+    "minimum_payment": "45.90",
+    "created_date": "2024-12-15T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "106",
+    "policy_id": "32",
+    "due_date": "2025-06-08",
+    "minimum_payment": "97.45",
+    "created_date": "2025-05-24T00:00:00",
+    "balance": "133.51",
+    "status": "Overdue"
+  },
+  {
+    "id": "107",
+    "policy_id": "32",
+    "due_date": "2025-07-08",
+    "minimum_payment": "252.75",
+    "created_date": "2025-06-23T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "108",
+    "policy_id": "32",
+    "due_date": "2025-08-07",
+    "minimum_payment": "369.86",
+    "created_date": "2025-07-23T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "109",
+    "policy_id": "33",
+    "due_date": "2024-04-13",
+    "minimum_payment": "506.25",
+    "created_date": "2024-03-29T00:00:00",
+    "balance": "460.96",
+    "status": "Pending"
+  },
+  {
+    "id": "110",
+    "policy_id": "33",
+    "due_date": "2024-05-13",
+    "minimum_payment": "447.90",
+    "created_date": "2024-04-28T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "111",
+    "policy_id": "33",
+    "due_date": "2024-06-12",
+    "minimum_payment": "398.18",
+    "created_date": "2024-05-28T00:00:00",
+    "balance": "585.65",
+    "status": "Overdue"
+  },
+  {
+    "id": "112",
+    "policy_id": "33",
+    "due_date": "2024-07-12",
+    "minimum_payment": "251.42",
+    "created_date": "2024-06-27T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "113",
+    "policy_id": "33",
+    "due_date": "2024-08-11",
+    "minimum_payment": "155.45",
+    "created_date": "2024-07-27T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "114",
+    "policy_id": "33",
+    "due_date": "2024-09-10",
+    "minimum_payment": "304.15",
+    "created_date": "2024-08-26T00:00:00",
+    "balance": "256.56",
+    "status": "Pending"
+  },
+  {
+    "id": "115",
+    "policy_id": "34",
+    "due_date": "2025-03-25",
+    "minimum_payment": "477.44",
+    "created_date": "2025-03-10T00:00:00",
+    "balance": "603.15",
+    "status": "Overdue"
+  },
+  {
+    "id": "116",
+    "policy_id": "35",
+    "due_date": "2024-11-28",
+    "minimum_payment": "272.83",
+    "created_date": "2024-11-13T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "117",
+    "policy_id": "35",
+    "due_date": "2024-12-28",
+    "minimum_payment": "48.18",
+    "created_date": "2024-12-13T00:00:00",
+    "balance": "308.29",
+    "status": "Overdue"
+  },
+  {
+    "id": "118",
+    "policy_id": "35",
+    "due_date": "2025-01-27",
+    "minimum_payment": "120.00",
+    "created_date": "2025-01-12T00:00:00",
+    "balance": "588.59",
+    "status": "Overdue"
+  },
+  {
+    "id": "119",
+    "policy_id": "35",
+    "due_date": "2025-02-26",
+    "minimum_payment": "324.96",
+    "created_date": "2025-02-11T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "120",
+    "policy_id": "35",
+    "due_date": "2025-03-28",
+    "minimum_payment": "85.79",
+    "created_date": "2025-03-13T00:00:00",
+    "balance": "578.94",
+    "status": "Pending"
+  },
+  {
+    "id": "121",
+    "policy_id": "35",
+    "due_date": "2025-04-27",
+    "minimum_payment": "53.94",
+    "created_date": "2025-04-12T00:00:00",
+    "balance": "447.48",
+    "status": "Overdue"
+  },
+  {
+    "id": "122",
+    "policy_id": "36",
+    "due_date": "2025-08-04",
+    "minimum_payment": "469.28",
+    "created_date": "2025-07-20T00:00:00",
+    "balance": "609.47",
+    "status": "Pending"
+  },
+  {
+    "id": "123",
+    "policy_id": "36",
+    "due_date": "2025-09-03",
+    "minimum_payment": "563.89",
+    "created_date": "2025-08-19T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "124",
+    "policy_id": "36",
+    "due_date": "2025-10-03",
+    "minimum_payment": "556.74",
+    "created_date": "2025-09-18T00:00:00",
+    "balance": "125.02",
+    "status": "Pending"
+  },
+  {
+    "id": "125",
+    "policy_id": "37",
+    "due_date": "2024-06-15",
+    "minimum_payment": "490.79",
+    "created_date": "2024-05-31T00:00:00",
+    "balance": "438.73",
+    "status": "Overdue"
+  },
+  {
+    "id": "126",
+    "policy_id": "37",
+    "due_date": "2024-07-15",
+    "minimum_payment": "275.58",
+    "created_date": "2024-06-30T00:00:00",
+    "balance": "107.09",
+    "status": "Overdue"
+  },
+  {
+    "id": "127",
+    "policy_id": "37",
+    "due_date": "2024-08-14",
+    "minimum_payment": "338.37",
+    "created_date": "2024-07-30T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "128",
+    "policy_id": "37",
+    "due_date": "2024-09-13",
+    "minimum_payment": "169.49",
+    "created_date": "2024-08-29T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "129",
+    "policy_id": "37",
+    "due_date": "2024-10-13",
+    "minimum_payment": "198.15",
+    "created_date": "2024-09-28T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "130",
+    "policy_id": "37",
+    "due_date": "2024-11-12",
+    "minimum_payment": "198.14",
+    "created_date": "2024-10-28T00:00:00",
+    "balance": "86.46",
+    "status": "Overdue"
+  },
+  {
+    "id": "131",
+    "policy_id": "38",
+    "due_date": "2025-08-05",
+    "minimum_payment": "357.64",
+    "created_date": "2025-07-21T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "132",
+    "policy_id": "39",
+    "due_date": "2024-09-18",
+    "minimum_payment": "350.87",
+    "created_date": "2024-09-03T00:00:00",
+    "balance": "601.32",
+    "status": "Pending"
+  },
+  {
+    "id": "133",
+    "policy_id": "39",
+    "due_date": "2024-10-18",
+    "minimum_payment": "183.44",
+    "created_date": "2024-10-03T00:00:00",
+    "balance": "528.35",
+    "status": "Pending"
+  },
+  {
+    "id": "134",
+    "policy_id": "39",
+    "due_date": "2024-11-17",
+    "minimum_payment": "503.09",
+    "created_date": "2024-11-02T00:00:00",
+    "balance": "246.01",
+    "status": "Pending"
+  },
+  {
+    "id": "135",
+    "policy_id": "40",
+    "due_date": "2025-10-02",
+    "minimum_payment": "507.16",
+    "created_date": "2025-09-17T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "136",
+    "policy_id": "40",
+    "due_date": "2025-11-01",
+    "minimum_payment": "248.99",
+    "created_date": "2025-10-17T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "137",
+    "policy_id": "40",
+    "due_date": "2025-12-01",
+    "minimum_payment": "57.03",
+    "created_date": "2025-11-16T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  },
+  {
+    "id": "138",
+    "policy_id": "40",
+    "due_date": "2025-12-31",
+    "minimum_payment": "261.29",
+    "created_date": "2025-12-16T00:00:00",
+    "balance": "303.90",
+    "status": "Overdue"
+  },
+  {
+    "id": "139",
+    "policy_id": "40",
+    "due_date": "2026-01-30",
+    "minimum_payment": "593.91",
+    "created_date": "2026-01-15T00:00:00",
+    "balance": "89.30",
+    "status": "Overdue"
+  },
+  {
+    "id": "140",
+    "policy_id": "40",
+    "due_date": "2026-03-01",
+    "minimum_payment": "595.48",
+    "created_date": "2026-02-14T00:00:00",
+    "balance": "0.00",
+    "status": "Paid"
+  }
+]
