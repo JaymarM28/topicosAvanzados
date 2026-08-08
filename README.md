@@ -25,6 +25,24 @@ dominio de negocio propio.
 
 ---
 
+## Migraciones — paso a paso
+
+1. **`V202608081500__add_vehicle_table.sql`** — crea la tabla `vehicle` (no existía en el
+   ERD original), hace backfill de los `vehicle_id` que ya estaban sueltos en
+   `vehicle_coverage`, y agrega la FK que faltaba.
+2. **`V202608081510__add_bill_payment_method.sql`** — agrega `bill.payment_method` como
+   `INT` (código interno: 1=tarjeta, 2=débito, 3=transferencia).
+3. **`V202608081520__add_bill_policy_due_index.sql`** — índice compuesto
+   `(policy_id, due_date)` en `bill` para el dashboard de cobranza.
+4. **`R__fn_calculate_late_fee.sql`** — función repetible: calcula la tasa de recargo por
+   mora según días de atraso.
+5. **`R__sp_register_payment.sql`** — procedure repetible: registra el pago de una factura,
+   aplica el recargo, y audita el cambio en `policy_edit_log`.
+6. **`V202608081600__fix_bill_payment_method_length.sql`** — la corrección (roll forward)
+   al error real detectado tras desplegar el paso 2.
+
+---
+
 ## 1. El negocio
 
 RutaSegura vende **pólizas** de seguro vehicular. Cada póliza puede incluir varias
