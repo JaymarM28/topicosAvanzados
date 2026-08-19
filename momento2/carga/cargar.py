@@ -38,12 +38,17 @@ import os
 import sys
 from pathlib import Path
 
-import snowflake.connector
 from dotenv import load_dotenv
 from snowflake.connector.errors import Error as SnowflakeError
 
 RAIZ = Path(__file__).resolve().parent.parent
 CARPETA_CSV = RAIZ / "data_extraida"
+
+# conexiones.py vive en momento2/, un nivel arriba de este archivo. Se agrega esa
+# carpeta al path para poder importarlo sin convertir el proyecto en un paquete
+# instalable — que para dos scripts sería más ceremonia que beneficio.
+sys.path.insert(0, str(RAIZ))
+from conexiones import conectar_snowflake  # noqa: E402
 
 # Las 7 tablas del modelo, en orden de dependencia (padres antes que hijas). En RAW
 # no hay foreign keys que lo exijan, pero el orden importa igual: si la carga se
@@ -73,80 +78,6 @@ logging.basicConfig(
     datefmt="%H:%M:%S",
 )
 log = logging.getLogger("carga")
-
-
-# ---------------------------------------------------------------------------
-# Conexión
-# ---------------------------------------------------------------------------
-
-def _env(nombre: str, obligatoria: bool = True, defecto: str | None = None) -> str | None:
-    """Lee una variable de entorno y le quita los espacios de sobra.
-
-    El .strip() no es paranoia: un `SNOWFLAKE_USER=DAV ` con un espacio al final
-    —que es facilísimo de dejar al copiar y pegar— produce un error de
-    autenticación que no menciona el espacio por ningún lado.
-    """
-    valor = os.environ.get(nombre, defecto)
-    valor = valor.strip() if isinstance(valor, str) else valor
-    if obligatoria and not valor:
-        log.error("Falta la variable de entorno %s. Revisa momento2/.env", nombre)
-        sys.exit(1)
-    return valor
-
-
-def conectar_snowflake() -> snowflake.connector.SnowflakeConnection:
-    # Warehouse, base, schema y rol se fijan explícitamente en la conexión en vez de
-    # depender de los defaults del usuario. Si se dejaran implícitos, el script
-    # funcionaría en la cuenta de quien los configuró a mano y fallaría en la de sus
-    # compañeros de equipo, sin que cambie una sola línea de código.
-    parametros = {
-        "account": _env("SNOWFLAKE_ACCOUNT"),
-        "user": _env("SNOWFLAKE_USER"),
-        "warehouse": _env("SNOWFLAKE_WAREHOUSE"),
-        "database": _env("SNOWFLAKE_DATABASE"),
-        "schema": _env("SNOWFLAKE_SCHEMA", obligatoria=False, defecto="RAW"),
-        "role": _env("SNOWFLAKE_ROLE", obligatoria=False),
-    }
-
-    # Autenticación por par de llaves si hay una llave privada configurada; si no,
-    # se cae al mecanismo que diga SNOWFLAKE_AUTHENTICATOR.
-    #
-    # ¿Por qué par de llaves es lo correcto acá y no usuario+contraseña? Porque
-    # Snowflake exige MFA para los inicios de sesión con contraseña, y un segundo
-    # factor interactivo es incompatible con un proceso automatizado: no hay nadie
-    # para teclear el código cuando el pipeline corre solo. Es la misma razón por la
-    # que Snowflake documenta el par de llaves como el mecanismo para cuentas de
-    # servicio. El beneficio secundario es que la demo en vivo no depende de sacar
-    # un TOTP del celular a tiempo.
-    #
-    # La llave privada vive FUERA del repositorio y solo se referencia por ruta, así
-    # que el repo nunca contiene material criptográfico — ni siquiera por accidente
-    # en el historial de commits.
-    ruta_llave = _env("SNOWFLAKE_PRIVATE_KEY_PATH", obligatoria=False)
-    if ruta_llave:
-        if not Path(ruta_llave).exists():
-            log.error("SNOWFLAKE_PRIVATE_KEY_PATH apunta a %s, que no existe.", ruta_llave)
-            sys.exit(1)
-        parametros["authenticator"] = "SNOWFLAKE_JWT"
-        parametros["private_key_file"] = ruta_llave
-        # Solo si la llave se generó cifrada (openssl pkcs8 sin -nocrypt).
-        passphrase = _env("SNOWFLAKE_PRIVATE_KEY_PASSPHRASE", obligatoria=False)
-        if passphrase:
-            parametros["private_key_file_pwd"] = passphrase
-        metodo = "par de llaves"
-    else:
-        autenticador = _env("SNOWFLAKE_AUTHENTICATOR", obligatoria=False, defecto="snowflake")
-        parametros["authenticator"] = autenticador
-        if autenticador != "externalbrowser":
-            parametros["password"] = _env("SNOWFLAKE_PASSWORD")
-        metodo = autenticador
-
-    log.info(
-        "Conectando a Snowflake · cuenta=%s usuario=%s rol=%s base=%s.%s auth=%s",
-        parametros["account"], parametros["user"], parametros["role"],
-        parametros["database"], parametros["schema"], metodo,
-    )
-    return snowflake.connector.connect(**parametros)
 
 
 # ---------------------------------------------------------------------------
