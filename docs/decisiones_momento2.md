@@ -20,8 +20,9 @@ COMMIT;
 ```
 
 Correr el pipeline dos veces seguidas deja exactamente el mismo estado que correrlo una
-vez. Verificado: tres ejecuciones consecutivas dejan los conteos idénticos a Neon
-(15/40/63/140/143/214).
+vez. Verificado: ejecuciones consecutivas dejan los conteos idénticos a los de Neon en
+las 7 tablas (15 / 40 / 60 / 63 / 140 / 143 / 214), y la suite de validaciones pasa
+completa después de cada una.
 
 **Por qué.** El modelo de RutaSegura tiene ~675 filas en total y las tablas no traen una
 columna confiable de "última modificación": `created_date` dice cuándo nació la fila, no
@@ -150,10 +151,16 @@ negocio (`status = 'Paid'` implica `balance = 0`).
 La suite devuelve código de salida `1` cuando algo falla. Sin ese código, un job
 automatizado daría "verde" sobre datos rotos.
 
-**Evidencia de que fallan cuando deben fallar:** hoy fallan 3 de 36, y las tres apuntan
-al mismo defecto real desde ángulos independientes — la tabla `vehicle` no se está
-extrayendo desde Neon, así que `RAW.VEHICLE` está vacía y los 214 registros de
-`vehicle_coverage` son huérfanos.
+**Evidencia de que fallan cuando deben fallar.** No es una afirmación teórica: durante el
+desarrollo la extracción omitía la tabla `vehicle` (no aparece en los JSON semilla porque
+la creó la migración `V202608081500`), y la suite lo detectó sin que nadie lo estuviera
+buscando — 3 de 36 chequeos en rojo, señalando el mismo defecto desde tres ángulos
+independientes: el conteo contra el origen (Neon 60 vs Snowflake 0), los 214 registros de
+`vehicle_coverage` que quedaban huérfanos, y la tabla vacía. Corregida la extracción,
+los 36 pasan.
+
+Se reproduce en cualquier momento comentando una tabla en la lista `TABLAS` de
+`extraer_neon_a_csv.py` y volviendo a correr el pipeline.
 
 ---
 
@@ -188,11 +195,3 @@ pasara algo por fuera del repositorio, no lo sería.
 La única fuente compartida es la base de Neon del proyecto, que sí es una sola.
 
 ---
-
-## Pendiente conocido
-
-`momento2/extraer_neon_a_csv.py` extrae 6 de las 7 tablas del modelo: falta `vehicle`.
-No aparece en los JSON semilla de `data/` porque no nació en el baseline sino en la
-migración `V202608081500`, que además hizo el backfill de los 60 vehículos. Mientras no
-se agregue, `RAW.VEHICLE` queda vacía, cada ejecución deja una fila `LOAD_FAILED` en la
-bitácora y tres validaciones fallan.

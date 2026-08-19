@@ -140,12 +140,8 @@ el caso que más interesa registrar.
 de error completo de Snowflake. Así la bitácora cubre los tres caminos: `LOADED`,
 `PARTIALLY_LOADED` y `LOAD_FAILED` — incluido el caso "el CSV ni siquiera existe".
 
-## Pendientes que dependen de otros
+## Nota sobre el entorno
 
-- **`vehicle` no se está extrayendo.** `extraer_neon_a_csv.py` lista 6 tablas; el
-  modelo tiene 7. `vehicle` la creó la migración `V202608081500` y por eso no tiene
-  JSON semilla en `data/`. `cargar.py` la incluye igual: mientras falte su CSV, cada
-  ejecución deja una fila `LOAD_FAILED` en la bitácora diciéndolo.
 - **`WH_VEHICLE_COVERGE`** está así escrito en `setup_snowflake.sql` (falta la "A" de
   COVERAGE). Como el nombre es consistente en todo ese script, funciona; si se
   corrige, hay que corregirlo también en los `USE WAREHOUSE` de esta carpeta y en

@@ -3,7 +3,7 @@ Extracción — modelo propio (equipo 5) desde Neon hacia CSV planos.
 
 Momento 2 del módulo "Tendencias emergentes en desarrollo de software" (SI6010-5979).
 
-Extrae las 6 tablas del modelo transaccional de RutaSegura (Cobertura Vehicular,
+Extrae las 7 tablas del modelo transaccional de RutaSegura (Cobertura Vehicular,
 diseñado en el Momento 1 — ver momento1/inyeccion_semilla_equipo_5.py) desde la branch
 `dev` de Neon, y las escribe sin transformar en archivos CSV dentro de data_extraida/.
 
@@ -12,7 +12,7 @@ Esta es la mitad "extracción" del pipeline de ingesta hacia Snowflake. La carga
 compañero del equipo — estos CSV quedan versionados en el repo como su insumo.
 
 Uso:
-    uv run extraer_neon_a_csv.py                  # extrae las 6 tablas
+    uv run extraer_neon_a_csv.py                  # extrae las 7 tablas
     uv run extraer_neon_a_csv.py --tabla policy    # solo una tabla
 
 Variable de entorno requerida (ver momento2/.env.example):
@@ -46,9 +46,15 @@ RAIZ = Path(__file__).resolve().parent
 import psycopg2
 from dotenv import load_dotenv
 
+# `vehicle` no aparece en los JSON semilla de data/ porque no nació en el baseline:
+# la creó la migración V202608081500, que además hizo el backfill de los 60 vehículos
+# que hasta entonces vivían como vehicle_id suelto en vehicle_coverage. Por eso es la
+# tabla que más fácil se olvida al armar esta lista — y sin ella los 214 registros de
+# vehicle_coverage quedan huérfanos en el DW.
 TABLAS = [
     "coverage",
     "policy",
+    "vehicle",
     "policy_edit_log",
     "bill",
     "policy_coverage",
