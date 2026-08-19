@@ -1,0 +1,16 @@
+id,coverage_name,coverage_group,code,is_policy_coverage,is_vehicle_coverage,description
+1,Liability - Bodily Injury,Liability,LIAB-BI,TRUE,FALSE,Cubre lesiones corporales a terceros causadas por el asegurado.
+2,Liability - Property Damage,Liability,LIAB-PD,TRUE,FALSE,Cubre daños a la propiedad de terceros causados por el asegurado.
+3,Uninsured Motorist,Liability,UM,TRUE,FALSE,Cubre daños causados por conductores sin seguro o con seguro insuficiente.
+4,Collision,Physical Damage,COLL,FALSE,TRUE,"Cubre daños al vehículo asegurado por colisión, sin importar la culpa."
+5,Comprehensive,Physical Damage,COMP,FALSE,TRUE,"Cubre daños al vehículo por causas distintas a colisión: robo, incendio, clima."
+6,Roadside Assistance,Add-On,ROAD,FALSE,TRUE,"Asistencia en carretera: batería, llanta ponchada, combustible."
+7,Rental Reimbursement,Add-On,RENT,FALSE,TRUE,Reembolso de vehículo de reemplazo mientras el asegurado está en reparación.
+8,Gap Insurance,Add-On,GAP,FALSE,TRUE,Cubre la diferencia entre el valor del vehículo y el saldo del préstamo.
+9,Medical Payments,Medical,MEDPAY,TRUE,FALSE,"Cubre gastos médicos del asegurado y pasajeros, sin importar la culpa."
+10,Personal Injury Protection,Medical,PIP,TRUE,FALSE,"Cubre gastos médicos, salarios perdidos y otros gastos tras un accidente."
+11,Glass Coverage,Physical Damage,GLASS,FALSE,TRUE,Cubre reparación o reemplazo de parabrisas y vidrios.
+12,Towing & Labor,Add-On,TOW,FALSE,TRUE,Cubre el costo de remolque y mano de obra en el lugar del incidente.
+13,Custom Equipment,Physical Damage,CUSTEQ,FALSE,TRUE,"Cubre equipo adicional instalado: rines, sonido, blindaje."
+14,Rideshare Coverage,Add-On,RIDESHARE,FALSE,TRUE,Extiende la cobertura mientras el vehículo se usa para plataformas de transporte.
+15,Diminished Value,Physical Damage,DIMVAL,FALSE,TRUE,Cubre la pérdida de valor de reventa tras un accidente reparado.

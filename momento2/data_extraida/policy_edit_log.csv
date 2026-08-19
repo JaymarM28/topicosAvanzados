@@ -1,0 +1,64 @@
+id,policy_id,edited_table_name,edited_date,additional_info,edited_by
+1,1,Bill,2026-02-23 04:00:00,Actualización de método de pago,Camilo Torres
+2,1,Bill,2026-09-02 19:00:00,Corrección de monto total,Felipe Vargas
+3,1,Bill,2025-10-20 04:00:00,Actualización de método de pago,Diego Salazar
+4,2,Policy,2024-06-03 15:00:00,Corrección de monto total,Diego Salazar
+5,2,Policy_Coverage,2024-06-16 04:00:00,Cambio de estado de cobertura,Felipe Vargas
+6,3,Policy_Coverage,2025-07-18 15:00:00,,Camilo Torres
+7,3,Bill,2024-09-18 04:00:00,Cambio de estado de cobertura,Isabella Moreno
+8,3,Policy_Coverage,2025-07-21 09:00:00,,Laura Gómez
+9,4,Policy_Coverage,2025-01-11 11:00:00,,Juliana Restrepo
+10,4,Bill,2024-10-23 00:00:00,,Paula Jiménez
+11,4,Policy_Coverage,2025-04-07 03:00:00,,Valentina Castro
+12,6,Policy_Coverage,2024-10-06 19:00:00,Actualización de datos de contacto,Mariana López
+13,6,Policy_Coverage,2024-10-18 12:00:00,Corrección de monto total,Felipe Vargas
+14,6,Bill,2024-10-16 02:00:00,Actualización de método de pago,Nicolás Cárdenas
+15,7,Bill,2025-01-10 15:00:00,Corrección de monto total,Santiago Muñoz
+16,7,Policy_Coverage,2024-11-28 22:00:00,Actualización de datos de contacto,Isabella Moreno
+17,8,Policy_Coverage,2025-01-14 18:00:00,Actualización de método de pago,María Fernanda Ruiz
+18,9,Policy,2025-02-19 02:00:00,Actualización de método de pago,Isabella Moreno
+19,10,Policy_Coverage,2025-06-12 12:00:00,Actualización de datos de contacto,Andrés Rojas
+20,10,Policy,2025-07-10 03:00:00,,Camilo Torres
+21,10,Policy_Coverage,2025-07-15 09:00:00,Actualización de datos de contacto,Juliana Restrepo
+22,11,Bill,2025-07-24 05:00:00,Corrección de monto total,María Fernanda Ruiz
+23,12,Policy,2024-02-29 17:00:00,Actualización de datos de contacto,María Fernanda Ruiz
+24,13,Policy_Coverage,2025-01-17 18:00:00,Actualización de método de pago,Mariana López
+25,13,Policy,2025-11-03 04:00:00,Actualización de datos de contacto,María Fernanda Ruiz
+26,14,Bill,2025-04-23 19:00:00,Actualización de datos de contacto,Sebastián Peña
+27,14,Policy,2025-04-15 11:00:00,Corrección de monto total,Felipe Vargas
+28,15,Policy_Coverage,2025-10-02 20:00:00,,Felipe Vargas
+29,16,Policy_Coverage,2024-10-14 02:00:00,Corrección de monto total,Daniela Ortiz
+30,17,Policy,2025-07-02 04:00:00,Cambio de estado de cobertura,Paula Jiménez
+31,17,Policy,2025-05-30 05:00:00,Actualización de método de pago,Isabella Moreno
+32,22,Bill,2024-11-02 12:00:00,Actualización de datos de contacto,Isabella Moreno
+33,22,Policy,2024-08-27 16:00:00,,Mariana López
+34,22,Bill,2024-07-30 04:00:00,Corrección de monto total,Camilo Torres
+35,24,Policy_Coverage,2025-04-26 04:00:00,,Mariana López
+36,24,Bill,2025-07-08 07:00:00,Cambio de estado de cobertura,Sebastián Peña
+37,24,Policy,2025-07-24 12:00:00,Cambio de estado de cobertura,Felipe Vargas
+38,25,Policy,2024-10-02 16:00:00,,Valentina Castro
+39,25,Policy,2024-08-17 12:00:00,Actualización de método de pago,Andrés Rojas
+40,25,Policy,2024-07-10 05:00:00,Corrección de monto total,Andrés Rojas
+41,26,Bill,2025-06-26 21:00:00,Actualización de método de pago,Nicolás Cárdenas
+42,26,Policy_Coverage,2025-06-20 09:00:00,Actualización de datos de contacto,Isabella Moreno
+43,26,Policy,2025-06-18 14:00:00,Corrección de monto total,Juliana Restrepo
+44,27,Bill,2025-01-12 11:00:00,Actualización de datos de contacto,Juliana Restrepo
+45,28,Policy,2024-09-17 08:00:00,Cambio de estado de cobertura,Julián Herrera
+46,28,Policy,2024-08-08 15:00:00,Cambio de estado de cobertura,Sebastián Peña
+47,29,Policy,2024-07-25 22:00:00,Actualización de datos de contacto,Diego Salazar
+48,29,Policy_Coverage,2024-09-12 03:00:00,Cambio de estado de cobertura,Felipe Vargas
+49,30,Policy_Coverage,2025-01-08 07:00:00,Corrección de monto total,Andrés Rojas
+50,30,Policy,2024-09-09 22:00:00,,Julián Herrera
+51,30,Policy_Coverage,2025-01-04 02:00:00,Actualización de datos de contacto,Sebastián Peña
+52,31,Bill,2024-08-20 14:00:00,Cambio de estado de cobertura,María Fernanda Ruiz
+53,31,Policy,2024-10-31 05:00:00,Corrección de monto total,Valentina Castro
+54,33,Bill,2024-05-23 00:00:00,Actualización de método de pago,Paula Jiménez
+55,33,Policy,2024-09-05 13:00:00,Actualización de método de pago,Andrés Rojas
+56,33,Policy_Coverage,2024-08-02 16:00:00,Cambio de estado de cobertura,Camilo Torres
+57,35,Bill,2025-07-08 02:00:00,Actualización de método de pago,Julián Herrera
+58,37,Policy,2024-08-26 01:00:00,Cambio de estado de cobertura,Nicolás Cárdenas
+59,37,Policy_Coverage,2024-09-08 09:00:00,Actualización de método de pago,Andrés Rojas
+60,37,Policy_Coverage,2024-07-05 05:00:00,,Mariana López
+61,38,Policy,2025-11-20 07:00:00,Cambio de estado de cobertura,Camilo Torres
+62,40,Policy_Coverage,2026-07-06 02:00:00,Corrección de monto total,Laura Gómez
+63,1,Bill,2026-08-08 16:03:49.669177,Pago de 150.00 registrado vía credit_card. Recargo por mora: 34.99 (283 dias). Nuevo saldo: 234.88,Equipo5
