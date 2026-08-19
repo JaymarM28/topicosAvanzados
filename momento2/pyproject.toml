@@ -1,0 +1,9 @@
+[project]
+name = "extraccion-neon-equipo-5"
+version = "0.1.0"
+description = "Extracción del modelo propio (equipo 5) desde Neon hacia CSV planos — Momento 2"
+requires-python = ">=3.12"
+dependencies = [
+    "psycopg2-binary>=2.9.12",
+    "python-dotenv>=1.2.3",
+]
