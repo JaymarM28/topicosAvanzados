@@ -6,65 +6,57 @@
     "reported_at": "2026-08-28T15:11:00",
     "incident_type": "roadside_assist",
     "estimated_damage_usd": 7400.09,
-    "involved_parties": [
-      {
-        "name": "María Fernanda López",
-        "role": "witness",
-        "phone": "+57-302-627-9980",
-        "personal_address": "Cra 65 #30-44, Belén",
-        "email": "maría46@example.com"
-      }
-    ],
-    "assigned_workshop": "CDA La Estrella"
+    "involved_parties": [],
+    "assigned_workshop": "Taller Andino S.A.S."
   },
   {
     "claim_id": "CLM-2026-0011",
-    "policy_number": "POL-000038",
-    "vin": "VIN-PENDIENTE-43",
-    "reported_at": "2026-08-28T07:48:00",
-    "incident_type": "vandalism",
-    "estimated_damage_usd": 3203.75,
+    "policy_number": "POL-000006",
+    "vin": "VIN-PENDIENTE-32",
+    "reported_at": "2026-08-28T11:32:00",
+    "incident_type": "glass_damage",
+    "estimated_damage_usd": 7396.66,
     "involved_parties": [
+      {
+        "name": "María Fernanda López",
+        "role": "passenger",
+        "phone": "+57-304-779-1562",
+        "personal_address": "Cl 51 #70-15, Centro",
+        "email": "maría91@example.com"
+      },
       {
         "name": "Felipe Arango",
         "role": "passenger",
         "phone": "+57-303-371-5814",
         "personal_address": "Cra 65 #30-44, Belén",
         "email": "felipe75@example.com"
-      },
-      {
-        "name": "Carlos Restrepo",
-        "role": "witness",
-        "phone": "+57-304-892-5107",
-        "personal_address": "Cra 65 #30-44, Belén",
-        "email": "carlos60@example.com"
-      },
+      }
+    ],
+    "assigned_workshop": "Taller Andino S.A.S."
+  },
+  {
+    "claim_id": "CLM-2026-0012",
+    "policy_number": "POL-000031",
+    "vin": "VIN-PENDIENTE-36",
+    "reported_at": "2026-08-28T19:16:00",
+    "incident_type": "vandalism",
+    "estimated_damage_usd": 5768.07,
+    "involved_parties": [
       {
         "name": "Jorge Iván Mejía",
         "role": "passenger",
         "phone": "+57-302-380-6662",
         "personal_address": "Diag 75B #2A-120, Envigado",
         "email": "jorge23@example.com"
-      }
-    ],
-    "assigned_workshop": "CDA La Estrella"
-  },
-  {
-    "claim_id": "CLM-2026-0012",
-    "policy_number": "POL-000029",
-    "vin": "VIN-PENDIENTE-24",
-    "reported_at": "2026-08-28T12:33:00",
-    "incident_type": "theft",
-    "estimated_damage_usd": 4584.11,
-    "involved_parties": [
+      },
       {
-        "name": "Luisa Cárdenas",
-        "role": "passenger",
-        "phone": "+57-303-389-2291",
-        "personal_address": "Diag 75B #2A-120, Envigado",
-        "email": "luisa75@example.com"
+        "name": "Daniela Montoya",
+        "role": "witness",
+        "phone": "+57-302-442-9489",
+        "personal_address": "Av 33 #74-12, Laureles",
+        "email": "daniela22@example.com"
       }
     ],
-    "assigned_workshop": "CDA La Estrella"
+    "assigned_workshop": "Taller Andino S.A.S."
   }
 ]

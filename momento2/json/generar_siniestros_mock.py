@@ -94,7 +94,14 @@ def siniestro(numero: int, semana: int, polizas: list[str], vins: list[str]) -> 
         "reported_at": f"2026-08-{7 + semana * 7:02d}T{rng.randint(7, 20):02d}:{rng.randint(0, 59):02d}:00",
         "incident_type": rng.choice(TIPOS),
         "estimated_damage_usd": round(rng.uniform(180, 8500), 2),
-        "involved_parties": [parte(semana) for _ in range(rng.randint(1, 3))],
+        # Un siniestro recién reportado puede no tener aún involucrados registrados:
+        # el array llega VACÍO (idea tomada del generador paralelo de Daniela en
+        # momento2/siniestros/). Ese caso obliga a usar OUTER => TRUE en el FLATTEN —
+        # sin él, el siniestro desaparecería en silencio de la tabla aplanada.
+        "involved_parties": (
+            [] if (semana == 3 and numero % 10 == 0)
+            else [parte(semana) for _ in range(rng.randint(1, 3))]
+        ),
     }
     # Y la semana 3 agrega el taller asignado — segundo caso de evolución del export.
     if semana >= 3:

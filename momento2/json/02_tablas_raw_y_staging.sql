@@ -128,7 +128,11 @@ SELECT
     p.value:personal_address::STRING,
     p.value:email::STRING
 FROM RAW_SINIESTROS,
-     LATERAL FLATTEN(input => raw_data:involved_parties) p;
+     -- OUTER => TRUE: un siniestro con el array de involucrados VACÍO (recién
+     -- reportado, sin detalle aún) produce igual una fila, con los campos de persona
+     -- en NULL. Sin OUTER, ese siniestro desaparecería en silencio del staging — y
+     -- una validación de conteo contra RAW_SINIESTROS no cuadraría sin explicación.
+     LATERAL FLATTEN(input => raw_data:involved_parties, OUTER => TRUE) p;
 
 -- ---------------------------------------------------------------------------
 -- Verificación
