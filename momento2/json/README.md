@@ -17,18 +17,21 @@ bucket S3 ──(COPY, task raíz)──► RAW_JSON.RAW_SINIESTROS (VARIANT)
 
 ## Archivos, en orden de ejecución
 
+La numeración es global al Momento 2: estos scripts van después de los `01`–`04`
+(setup, bitácora e ingesta relacional — ver el [README general](../README.md)).
+
 | Archivo | Qué hace |
 |---|---|
 | `generar_siniestros_mock.py` | Genera los 3 exports JSON mock (semilla fija, reproducible) |
-| `01_esquema_y_stage.sql` | Schema `RAW_JSON`, `FILE FORMAT` JSON, External Stage |
-| `02_tablas_raw_y_staging.sql` | `RAW_SINIESTROS` (VARIANT) + `COPY` + `FLATTEN` + staging |
-| `03_dag_tasks.sql` | DAG: `TASK_INGESTA_SINIESTROS` (raíz, cron) → `TASK_APLANAR_SINIESTROS` (AFTER) |
-| `04_rbac_masking.sql` | 2 roles de negocio + Masking Policies sobre teléfono y dirección |
+| `05_esquema_y_stage.sql` | Schema `RAW_JSON`, `FILE FORMAT` JSON, External Stage |
+| `06_tablas_raw_y_staging.sql` | `RAW_SINIESTROS` (VARIANT) + `COPY` + `FLATTEN` + staging |
+| `07_dag_tasks.sql` | DAG: `TASK_INGESTA_SINIESTROS` (raíz, cron) → `TASK_APLANAR_SINIESTROS` (AFTER) |
+| `08_rbac_masking.sql` | 2 roles de negocio + Masking Policies sobre teléfono y dirección |
 
-Antes de ejecutar `01`, **reemplazar la URL del bucket** (`s3://BUCKET-DEL-EQUIPO-PENDIENTE/`)
-por la real. Los mocks de `datos_mock/` se suben al bucket con la policy de lectura
-pública del curso. Para desarrollo sin bucket existe la variante interna comentada en
-`01` (`PUT` local) — todo lo demás funciona idéntico.
+El `05` ya apunta al bucket S3 real del equipo; si se usa otro bucket, se reemplaza
+la URL en ese script. Los mocks de `datos_mock/` se suben al bucket con la policy de
+lectura pública del curso. Para desarrollo sin bucket existe la variante interna
+comentada en `05` (`PUT` local) — todo lo demás funciona idéntico.
 
 ## El porqué de cada decisión
 

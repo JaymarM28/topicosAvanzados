@@ -1,19 +1,19 @@
 -- ---------------------------------------------------------------------------
--- 01_esquema_y_stage.sql — Ingesta semi-estructurada (Momento 2, punto 3)
+-- 05_esquema_y_stage.sql — Ingesta semi-estructurada (Momento 2, punto 3)
 -- Equipo 5 · RutaSegura — siniestros del call center (JSON)
 --
 -- Crea el schema del dominio semi-estructurado, el FILE FORMAT para los exports
 -- JSON y el External Stage que apunta al bucket S3 del equipo.
 --
 -- Orden completo del Momento 2:
---   1. setup_snowflake.sql               (warehouse, DB, RAW relacional, rol)
---   2. bitacora_carga.sql                (schema CONTROL + bitacora)
---   3. carga/01_file_format_y_stage.sql  (ingesta relacional)
---   4. carga/02_raw_tables.sql
---   5. json/01_esquema_y_stage.sql       <- este
---   6. json/02_tablas_raw_y_staging.sql
---   7. json/03_dag_tasks.sql
---   8. json/04_rbac_masking.sql
+--   1. 01_setup_snowflake.sql            (warehouse, DB, RAW relacional, rol)
+--   2. 02_bitacora_carga.sql             (schema CONTROL + bitácora)
+--   3. carga/03_file_format_y_stage.sql  (ingesta relacional)
+--   4. carga/04_raw_tables.sql
+--   5. json/05_esquema_y_stage.sql       <- este
+--   6. json/06_tablas_raw_y_staging.sql
+--   7. json/07_dag_tasks.sql
+--   8. json/08_rbac_masking.sql
 -- ---------------------------------------------------------------------------
 
 USE ROLE ACCOUNTADMIN;

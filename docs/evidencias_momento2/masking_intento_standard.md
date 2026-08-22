@@ -16,7 +16,7 @@ SHOW ACCOUNTS;
 
 ## El intento
 
-Ejecutando `momento2/json/04_rbac_masking.sql` contra la cuenta:
+Ejecutando `momento2/json/08_rbac_masking.sql` (entonces `04_rbac_masking.sql`) contra la cuenta:
 
 ```
 OK   CREATE ROLE IF NOT EXISTS ROLE_ANALISTA_SINIESTROS
@@ -56,7 +56,7 @@ en Standard y quedó aplicado.
 
 El upgrade se ejecutó esa misma noche (`ALTER ACCOUNT SJ52216 SET EDITION =
 'ENTERPRISE'` con rol `ORGADMIN`, verificado con `SHOW ACCOUNTS`). Con la cuenta ya en
-Enterprise, la sección 3 de `04_rbac_masking.sql` se re-ejecutó **sin cambiar una
+Enterprise, la sección 3 de `08_rbac_masking.sql` se re-ejecutó **sin cambiar una
 línea** y las dos políticas quedaron aplicadas. El mismo `SELECT` devuelve ahora tres
 resultados según el rol activo:
 
@@ -75,5 +75,5 @@ El doc del curso señala que el upgrade es self-service:
 `ALTER ACCOUNT SJ52216 SET EDITION = 'ENTERPRISE'` con rol `ORGADMIN` (esta cuenta es
 la Organization Account y el usuario tiene ese rol — ambas cosas verificadas). Si el
 upgrade se aplica antes de la sustentación, se re-ejecuta la sección 3 de
-`04_rbac_masking.sql` y la demo muestra los tres resultados distintos en vivo; si no,
+`08_rbac_masking.sql` y la demo muestra los tres resultados distintos en vivo; si no,
 esta evidencia respalda el criterio C5.

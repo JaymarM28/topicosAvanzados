@@ -1,5 +1,5 @@
 -- ---------------------------------------------------------------------------
--- 02_tablas_raw_y_staging.sql — Ingesta semi-estructurada (Momento 2, punto 3)
+-- 06_tablas_raw_y_staging.sql — Ingesta semi-estructurada (Momento 2, punto 3)
 -- Equipo 5 · RutaSegura — siniestros del call center (JSON)
 --
 -- La tabla de aterrizaje VARIANT, la carga inicial, y el aplanado con
@@ -86,7 +86,7 @@ LIMIT 10;
 -- ¿Por qué una tabla y no una vista? Porque cada consulta a la vista reaplanaría
 -- todo RAW_SINIESTROS de nuevo — gratis hoy con 12 siniestros, caro cuando el
 -- proveedor lleve un año depositando exports. Y porque la Masking Policy de
--- 04_rbac_masking.sql se aplica sobre columnas de esta tabla: es el punto donde el
+-- 08_rbac_masking.sql se aplica sobre columnas de esta tabla: es el punto donde el
 -- dato semi-estructurado se vuelve consumible (y por tanto, protegible).
 CREATE TABLE IF NOT EXISTS STG_SINIESTROS_FLATTENED (
     claim_id             STRING,

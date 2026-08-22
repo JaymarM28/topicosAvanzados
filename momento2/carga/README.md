@@ -15,18 +15,19 @@ Neon ──(extraer_neon_a_csv.py)──► data_extraida/*.csv ──(PUT)─�
 
 | Archivo | Qué hace |
 |---|---|
-| `01_file_format_y_stage.sql` | Crea `RAW.FF_CSV_NEON` (file format nombrado) y `RAW.STAGE_NEON` (internal stage), con sus grants |
-| `02_raw_tables.sql` | Crea las 7 tablas destino en `RAW`, con el esquema post-migraciones |
+| `03_file_format_y_stage.sql` | Crea `RAW.FF_CSV_NEON` (file format nombrado) y `RAW.STAGE_NEON` (internal stage), con sus grants |
+| `04_raw_tables.sql` | Crea las 7 tablas destino en `RAW`, con el esquema post-migraciones |
 | `cargar.py` | Ejecuta `PUT` + `COPY INTO` tabla por tabla y escribe la bitácora |
 
 ## Cómo se ejecuta
 
-**Una sola vez**, en un Worksheet de Snowsight, con un rol que pueda crear objetos:
+**Una sola vez**, en un Worksheet de Snowsight, con un rol que pueda crear objetos
+(el número de cada script es su turno en el orden global del Momento 2):
 
-1. `../setup_snowflake.sql` — base, schema `RAW`, warehouse, rol `TEAM5_LOADER`
-2. `../bitacora_carga.sql` — schema `CONTROL` y tabla `BITACORA_CARGA`
-3. `01_file_format_y_stage.sql`
-4. `02_raw_tables.sql`
+1. `../01_setup_snowflake.sql` — base, schema `RAW`, warehouse, rol `TEAM5_LOADER`
+2. `../02_bitacora_carga.sql` — schema `CONTROL` y tabla `BITACORA_CARGA`
+3. `03_file_format_y_stage.sql`
+4. `04_raw_tables.sql`
 
 **Cada vez que se quiera cargar**, desde `momento2/`:
 
@@ -142,7 +143,7 @@ de error completo de Snowflake. Así la bitácora cubre los tres caminos: `LOADE
 
 ## Nota sobre el entorno
 
-- **`WH_VEHICLE_COVERGE`** está así escrito en `setup_snowflake.sql` (falta la "A" de
+- **`WH_VEHICLE_COVERGE`** está así escrito en `01_setup_snowflake.sql` (falta la "A" de
   COVERAGE). Como el nombre es consistente en todo ese script, funciona; si se
   corrige, hay que corregirlo también en los `USE WAREHOUSE` de esta carpeta y en
   `.env`.

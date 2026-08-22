@@ -1,15 +1,15 @@
 -- ---------------------------------------------------------------------------
--- 01_file_format_y_stage.sql — Momento 2, punto 3 (carga vía Internal Stage)
+-- 03_file_format_y_stage.sql — Momento 2, punto 3 (carga vía Internal Stage)
 -- Equipo 5 · RutaSegura (Cobertura Vehicular)
 --
 -- Crea los dos objetos que consume `cargar.py`: el FILE FORMAT nombrado que
 -- describe cómo vienen los CSV, y el Internal Stage donde aterrizan.
 --
 -- Orden de ejecución del Momento 2:
---   1. setup_snowflake.sql        base, schema RAW, warehouse, rol
---   2. bitacora_carga.sql         schema CONTROL + tabla BITACORA_CARGA
---   3. carga/01_file_format_y_stage.sql   <- este
---   4. carga/02_raw_tables.sql            tablas destino
+--   1. 01_setup_snowflake.sql     base, schema RAW, warehouse, rol
+--   2. 02_bitacora_carga.sql      schema CONTROL + tabla BITACORA_CARGA
+--   3. carga/03_file_format_y_stage.sql   <- este
+--   4. carga/04_raw_tables.sql            tablas destino
 --   5. uv run carga/cargar.py             PUT + COPY INTO
 --
 -- Se ejecuta desde un Worksheet de Snowsight, con un rol que pueda crear

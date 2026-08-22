@@ -1,5 +1,5 @@
 -- ---------------------------------------------------------------------------
--- 03_dag_tasks.sql — Orquestación con Snowflake Tasks (Momento 2, punto 4)
+-- 07_dag_tasks.sql — Orquestación con Snowflake Tasks (Momento 2, punto 4)
 -- Equipo 5 · RutaSegura — siniestros del call center (JSON)
 --
 -- DAG de dos tareas: ingesta desde el stage (raíz, con SCHEDULE) y aplanado

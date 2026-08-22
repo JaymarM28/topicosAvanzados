@@ -21,10 +21,10 @@ Uso:
     uv run carga/cargar.py --listar-stage    # qué hay en el stage, sin cargar nada
 
 Requisitos previos (en este orden):
-    1. momento2/setup_snowflake.sql          base, schema RAW, warehouse, rol
-    2. momento2/bitacora_carga.sql           schema CONTROL + BITACORA_CARGA
-    3. momento2/carga/01_file_format_y_stage.sql
-    4. momento2/carga/02_raw_tables.sql
+    1. momento2/01_setup_snowflake.sql       base, schema RAW, warehouse, rol
+    2. momento2/02_bitacora_carga.sql        schema CONTROL + BITACORA_CARGA
+    3. momento2/carga/03_file_format_y_stage.sql
+    4. momento2/carga/04_raw_tables.sql
     5. uv run extraer_neon_a_csv.py          para que existan los CSV
 
 Variables de entorno: ver momento2/.env.example.
@@ -120,14 +120,14 @@ def verificar_drift(cursor, tabla: str, ruta_csv: Path, esquema: str) -> None:
     existentes = columnas_en_snowflake(cursor, esquema, tabla)
     if not existentes:
         # La tabla no existe todavía: no hay contra qué comparar. El COPY fallará
-        # con su propio mensaje si de verdad falta; 02_raw_tables.sql es el
+        # con su propio mensaje si de verdad falta; 04_raw_tables.sql es el
         # responsable de crearla.
         return
     nuevas = leer_columnas_csv(ruta_csv) - existentes
     if not nuevas:
         return
     # VARCHAR como tipo sugerido, a propósito: el header de un CSV no trae tipos, y
-    # RAW es deliberadamente laxo (ver 02_raw_tables.sql) — el tipado fino es
+    # RAW es deliberadamente laxo (ver 04_raw_tables.sql) — el tipado fino es
     # trabajo de capas posteriores. Quien aplique el ALTER puede afinar el tipo si
     # conoce el dato.
     ddl = "\n".join(

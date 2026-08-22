@@ -9,7 +9,7 @@
 -- de datos de negocio; esta es metadata operativa del pipeline, con un
 -- propósito distinto y un ciclo de vida propio (no se trunca junto con RAW).
 --
--- Requiere que momento2/setup_snowflake.sql ya se haya ejecutado (crea la
+-- Requiere que momento2/01_setup_snowflake.sql ya se haya ejecutado (crea la
 -- base de datos VEHICLE_COVERAGE y el rol TEAM5_LOADER).
 -- ---------------------------------------------------------------------------
 

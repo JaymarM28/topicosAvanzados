@@ -1,5 +1,5 @@
 -- ---------------------------------------------------------------------------
--- 02_raw_tables.sql — Momento 2, punto 3 (carga vía Internal Stage)
+-- 04_raw_tables.sql — Momento 2, punto 3 (carga vía Internal Stage)
 -- Equipo 5 · RutaSegura (Cobertura Vehicular)
 --
 -- Tablas destino del COPY INTO, en el schema RAW.
@@ -14,7 +14,7 @@
 -- Un DDL copiado del baseline se vería casi igual y fallaría en el COPY INTO
 -- con "column not found" en esas tres columnas.
 --
--- Se ejecuta después de 01_file_format_y_stage.sql.
+-- Se ejecuta después de 03_file_format_y_stage.sql.
 -- ---------------------------------------------------------------------------
 
 USE WAREHOUSE WH_VEHICLE_COVERGE;
@@ -121,7 +121,7 @@ CREATE TABLE IF NOT EXISTS VEHICLE_COVERAGE.RAW.VEHICLE_COVERAGE (
 
 -- El rol de servicio necesita DELETE además de INSERT: la estrategia de carga es
 -- borrar-y-cargar dentro de una transacción (ver carga/README.md). El grant ON
--- FUTURE TABLES de setup_snowflake.sql ya lo cubre para las tablas creadas
+-- FUTURE TABLES de 01_setup_snowflake.sql ya lo cubre para las tablas creadas
 -- después de ese script, pero se repite explícitamente aquí para que este
 -- archivo funcione aunque se ejecute en una cuenta donde el orden fue otro.
 GRANT SELECT, INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA VEHICLE_COVERAGE.RAW TO ROLE TEAM5_LOADER;

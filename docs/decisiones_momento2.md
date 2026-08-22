@@ -274,7 +274,7 @@ carga en la suya no existe en la de los demás, y no hay forma de compartir cred
 que lo cambie.
 
 Por eso **lo compartido es el código, no la cuenta**. Cada quien corre el mismo
-`setup_snowflake.sql` versionado en su cuenta y obtiene la misma arquitectura. Que eso
+`01_setup_snowflake.sql` versionado en su cuenta y obtiene la misma arquitectura. Que eso
 funcione es la prueba de que el setup es reproducible — si hiciera falta que alguien
 pasara algo por fuera del repositorio, no lo sería.
 

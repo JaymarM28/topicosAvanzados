@@ -1,5 +1,5 @@
 -- ---------------------------------------------------------------------------
--- 04_rbac_masking.sql — RBAC y protección de PII (Momento 2, punto 5)
+-- 08_rbac_masking.sql — RBAC y protección de PII (Momento 2, punto 5)
 -- Equipo 5 · RutaSegura — gobernanza sobre los datos de siniestros
 --
 -- Dos roles de negocio con necesidades de acceso reales y distintas, y una

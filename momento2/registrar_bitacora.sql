@@ -10,7 +10,7 @@
 -- bitácora, así que si ON_ERROR = 'CONTINUE' deja pasar unos archivos y
 -- falla otros, la bitácora refleja exactamente eso — no solo el camino feliz.
 --
--- Requiere que momento2/bitacora_carga.sql ya se haya ejecutado.
+-- Requiere que momento2/02_bitacora_carga.sql ya se haya ejecutado.
 -- ---------------------------------------------------------------------------
 
 -- Ejemplo completo para UNA tabla (repetir este bloque por cada una de las 6):

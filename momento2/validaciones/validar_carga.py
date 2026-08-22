@@ -86,7 +86,7 @@ def construir_validaciones() -> list[dict]:
 
     # 1. Llaves primarias sin valor. En Postgres `id` es PRIMARY KEY y por lo tanto
     #    NOT NULL, pero la capa RAW no replica esa restricción a propósito (ver
-    #    carga/02_raw_tables.sql): si el CSV trajera una fila corrupta, se quiere que
+    #    carga/04_raw_tables.sql): si el CSV trajera una fila corrupta, se quiere que
     #    entre y quede detectada acá, no que reviente el COPY sin dejar rastro.
     for tabla in TABLAS:
         validaciones.append({
