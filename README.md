@@ -1,8 +1,12 @@
 # RutaSegura — Cobertura Vehicular
 
-Proyecto propio del equipo 5 para el **Momento 1** del módulo de DataOps (SI6010-5979):
-tratar el esquema de una base de datos transaccional como código versionado, sobre un
-dominio de negocio propio.
+Proyecto propio del equipo 5 para el módulo de DataOps (SI6010-5979), sobre un dominio
+de negocio propio: una aseguradora vehicular.
+
+| Momento | Qué demuestra | Dónde |
+|---|---|---|
+| **1 — CI/CD en base de datos** | El esquema transaccional como código: Flyway + Neon + GitHub Actions | [`momento1/`](momento1/) · este README, abajo |
+| **2 — Cloud Data Warehouse** | Dos caminos de ingesta hacia Snowflake (relacional con schema drift + JSON vía External Stage), DAG de Tasks, RBAC y Data Masking | [`momento2/`](momento2/README.md) |
 
 > **RutaSegura** es una aseguradora vehicular ficticia. Este repositorio **no** reutiliza el
 > dataset de Parch & Posey usado en clase — es un modelo transaccional propio, construido
