@@ -7,12 +7,13 @@
 --
 -- Orden completo del Momento 2:
 --   1. setup_snowflake.sql               (warehouse, DB, RAW relacional, rol)
---   2. carga/01_file_format_y_stage.sql  (ingesta relacional)
---   3. carga/02_raw_tables.sql
---   4. json/01_esquema_y_stage.sql       <- este
---   5. json/02_tablas_raw_y_staging.sql
---   6. json/03_dag_tasks.sql
---   7. json/04_rbac_masking.sql
+--   2. bitacora_carga.sql                (schema CONTROL + bitacora)
+--   3. carga/01_file_format_y_stage.sql  (ingesta relacional)
+--   4. carga/02_raw_tables.sql
+--   5. json/01_esquema_y_stage.sql       <- este
+--   6. json/02_tablas_raw_y_staging.sql
+--   7. json/03_dag_tasks.sql
+--   8. json/04_rbac_masking.sql
 -- ---------------------------------------------------------------------------
 
 USE ROLE ACCOUNTADMIN;
