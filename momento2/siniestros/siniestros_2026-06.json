@@ -1,0 +1,189 @@
+[
+  {
+    "claim_id": "CLM-2026-000001",
+    "policy_number": "POL-000005",
+    "reported_at": "2026-06-15T20:28:00Z",
+    "claim_type": "roadside_assistance",
+    "status": "under_review",
+    "adjuster": {
+      "email": "operaciones@autorescate.co",
+      "agency": "AutoRescate 24/7"
+    },
+    "estimated_total_cost": 0,
+    "repair_line_items": []
+  },
+  {
+    "claim_id": "CLM-2026-000002",
+    "policy_number": "POL-000020",
+    "reported_at": "2026-06-09T18:20:00Z",
+    "claim_type": "roadside_assistance",
+    "status": "approved",
+    "adjuster": {
+      "email": "contacto@carroceriasdelvalle.co",
+      "agency": "Carrocerías del Valle"
+    },
+    "estimated_total_cost": 1245.02,
+    "repair_line_items": [
+      {
+        "part": "Front right headlight",
+        "damage_severity": "minor",
+        "labor_hours": 4.7,
+        "estimated_cost": 418.21
+      },
+      {
+        "part": "Front left door",
+        "damage_severity": "moderate",
+        "labor_hours": 1.1,
+        "estimated_cost": 826.81
+      }
+    ]
+  },
+  {
+    "claim_id": "CLM-2026-000003",
+    "policy_number": "POL-000030",
+    "reported_at": "2026-06-18T16:26:00Z",
+    "claim_type": "roadside_assistance",
+    "status": "under_review",
+    "adjuster": {
+      "email": "contacto@carroceriasdelvalle.co",
+      "agency": "Carrocerías del Valle"
+    },
+    "estimated_total_cost": 1939.31,
+    "repair_line_items": [
+      {
+        "part": "Rear bumper",
+        "damage_severity": "minor",
+        "labor_hours": 2.3,
+        "estimated_cost": 333.4
+      },
+      {
+        "part": "Front bumper",
+        "damage_severity": "minor",
+        "labor_hours": 1.6,
+        "estimated_cost": 843.2
+      },
+      {
+        "part": "Front left door",
+        "damage_severity": "minor",
+        "labor_hours": 0.8,
+        "estimated_cost": 762.71
+      }
+    ]
+  },
+  {
+    "claim_id": "CLM-2026-000004",
+    "policy_number": "POL-000025",
+    "reported_at": "2026-06-21T17:46:00Z",
+    "claim_type": "roadside_assistance",
+    "status": "under_review",
+    "adjuster": {
+      "email": "freelance.perito@gmail.com"
+    },
+    "estimated_total_cost": 635.76,
+    "repair_line_items": [
+      {
+        "part": "Front bumper",
+        "damage_severity": "severe",
+        "labor_hours": 4.2,
+        "estimated_cost": 635.76
+      }
+    ]
+  },
+  {
+    "claim_id": "CLM-2026-000005",
+    "policy_number": "POL-000018",
+    "reported_at": "2026-06-03T10:28:00Z",
+    "claim_type": "partial_theft",
+    "status": "approved",
+    "adjuster": {
+      "email": "freelance.perito@gmail.com"
+    },
+    "estimated_total_cost": 845.26,
+    "repair_line_items": [
+      {
+        "part": "Front right headlight",
+        "damage_severity": "severe",
+        "labor_hours": 4.2,
+        "estimated_cost": 315.16
+      },
+      {
+        "part": "Right side mirror",
+        "damage_severity": "minor",
+        "labor_hours": 3.1,
+        "estimated_cost": 120.73
+      },
+      {
+        "part": "Rear bumper",
+        "damage_severity": "severe",
+        "labor_hours": 4.6,
+        "estimated_cost": 409.37
+      }
+    ]
+  },
+  {
+    "claim_id": "CLM-2026-000006",
+    "policy_number": "POL-000038",
+    "reported_at": "2026-06-19T08:55:00Z",
+    "claim_type": "collision",
+    "status": "approved",
+    "adjuster": {
+      "email": "operaciones@autorescate.co",
+      "agency": "AutoRescate 24/7"
+    },
+    "estimated_total_cost": 1255.15,
+    "repair_line_items": [
+      {
+        "part": "Hood",
+        "damage_severity": "minor",
+        "labor_hours": 3.0,
+        "estimated_cost": 791.42
+      },
+      {
+        "part": "Windshield",
+        "damage_severity": "minor",
+        "labor_hours": 1.1,
+        "estimated_cost": 463.73
+      }
+    ]
+  },
+  {
+    "claim_id": "CLM-2026-000007",
+    "policy_number": "POL-000016",
+    "reported_at": "2026-06-25T16:08:00Z",
+    "claim_type": "partial_theft",
+    "status": "approved",
+    "adjuster": {
+      "email": "operaciones@autorescate.co",
+      "agency": "AutoRescate 24/7"
+    },
+    "estimated_total_cost": 552.04,
+    "repair_line_items": [
+      {
+        "part": "Hood",
+        "damage_severity": "severe",
+        "labor_hours": 0.9,
+        "estimated_cost": 552.04
+      }
+    ]
+  },
+  {
+    "claim_id": "CLM-2026-000008",
+    "policy_number": "POL-000001",
+    "reported_at": "2026-06-05T19:29:00Z",
+    "claim_type": "collision",
+    "status": "paid",
+    "adjuster": {
+      "email": "operaciones@autorescate.co",
+      "agency": "AutoRescate 24/7"
+    },
+    "estimated_total_cost": 250.74,
+    "repair_line_items": [
+      {
+        "part": "Rear fender",
+        "damage_severity": "minor",
+        "labor_hours": 5.4,
+        "estimated_cost": 250.74
+      }
+    ]
+  }
+]
