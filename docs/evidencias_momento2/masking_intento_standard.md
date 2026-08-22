@@ -52,7 +52,24 @@ USE ROLE ACCOUNTADMIN;              -> +57-301-215-7091 | Cl 37 Sur #45-21, Saba
 Todo lo demás del script (roles, grants diferenciados, cambio de rol en vivo) funciona
 en Standard y quedó aplicado.
 
-## Plan
+## Desenlace (actualización, 21/08 ~21:00)
+
+El upgrade se ejecutó esa misma noche (`ALTER ACCOUNT SJ52216 SET EDITION =
+'ENTERPRISE'` con rol `ORGADMIN`, verificado con `SHOW ACCOUNTS`). Con la cuenta ya en
+Enterprise, la sección 3 de `04_rbac_masking.sql` se re-ejecutó **sin cambiar una
+línea** y las dos políticas quedaron aplicadas. El mismo `SELECT` devuelve ahora tres
+resultados según el rol activo:
+
+```
+ROLE_ANALISTA_SINIESTROS -> +57-301-215-7091   | Cl 37 Sur #45-21, Sabaneta
+ROLE_GERENTE_COMERCIAL   -> +57-301-***-****   | *** direccion protegida ***
+ACCOUNTADMIN             -> +**-***-***-****   | *** direccion protegida ***
+```
+
+Este documento se conserva porque el "antes" (el error de edición y los tres roles
+viendo la PII completa) es parte de la historia que la demo cuenta.
+
+## El plan que se siguió
 
 El doc del curso señala que el upgrade es self-service:
 `ALTER ACCOUNT SJ52216 SET EDITION = 'ENTERPRISE'` con rol `ORGADMIN` (esta cuenta es

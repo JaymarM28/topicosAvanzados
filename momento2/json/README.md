@@ -45,5 +45,7 @@ pública del curso. Para desarrollo sin bucket existe la variante interna coment
 - DAG: raíz `SUCCEEDED`, hija disparada por `AFTER` y `SUCCEEDED` 1.5 s después
   (`TASK_HISTORY` como evidencia). Suspendido en orden correcto (raíz primero).
 - RBAC: ambos roles creados, grants diferenciados, cambio de rol en vivo.
-- Masking: pendiente del upgrade a Enterprise — el intento en Standard quedó
-  documentado como evidencia.
+- Masking: aplicada tras el upgrade a Enterprise (21/08 ~21:00) y verificada en
+  vivo — el mismo SELECT devuelve teléfono completo / solo prefijo / oculto según el
+  rol activo. El intento previo en Standard quedó documentado como parte de la
+  historia.

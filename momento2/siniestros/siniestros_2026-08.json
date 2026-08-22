@@ -1,0 +1,158 @@
+[
+  {
+    "claim_id": "CLM-2026-000018",
+    "policy_number": "POL-000009",
+    "reported_at": "2026-08-21T11:38:00Z",
+    "claim_type": "vandalism",
+    "status": "under_review",
+    "adjuster": {
+      "email": "operaciones@autorescate.co",
+      "agency": "AutoRescate 24/7"
+    },
+    "estimated_total_cost": 0,
+    "repair_line_items": []
+  },
+  {
+    "claim_id": "CLM-2026-000019",
+    "policy_number": "POL-000022",
+    "reported_at": "2026-08-03T08:51:00Z",
+    "claim_type": "roadside_assistance",
+    "status": "denied",
+    "adjuster": {
+      "email": "andino.motors@tpa-siniestros.co",
+      "agency": "Taller Andino Motors"
+    },
+    "estimated_total_cost": 321.99,
+    "repair_line_items": [
+      {
+        "part": "Windshield",
+        "damage_severity": "moderate",
+        "labor_hours": 4.5,
+        "estimated_cost": 321.99
+      }
+    ]
+  },
+  {
+    "claim_id": "CLM-2026-000020",
+    "policy_number": "POL-000006",
+    "reported_at": "2026-08-08T12:41:00Z",
+    "claim_type": "collision",
+    "status": "approved",
+    "adjuster": {
+      "email": "andino.motors@tpa-siniestros.co",
+      "agency": "Taller Andino Motors"
+    },
+    "estimated_total_cost": 571.56,
+    "repair_line_items": [
+      {
+        "part": "Front left door",
+        "damage_severity": "severe",
+        "labor_hours": 2.6,
+        "estimated_cost": 571.56
+      }
+    ]
+  },
+  {
+    "claim_id": "CLM-2026-000021",
+    "policy_number": "POL-000001",
+    "reported_at": "2026-08-14T14:28:00Z",
+    "claim_type": "vandalism",
+    "status": "paid",
+    "adjuster": {
+      "email": "andino.motors@tpa-siniestros.co",
+      "agency": "Taller Andino Motors"
+    },
+    "estimated_total_cost": 392.46,
+    "repair_line_items": [
+      {
+        "part": "Front right headlight",
+        "damage_severity": "severe",
+        "labor_hours": 4.0,
+        "estimated_cost": 392.46
+      }
+    ]
+  },
+  {
+    "claim_id": "CLM-2026-000022",
+    "policy_number": "POL-000012",
+    "reported_at": "2026-08-05T15:57:00Z",
+    "claim_type": "collision",
+    "status": "under_review",
+    "adjuster": {
+      "email": "andino.motors@tpa-siniestros.co",
+      "agency": "Taller Andino Motors"
+    },
+    "estimated_total_cost": 1597.12,
+    "repair_line_items": [
+      {
+        "part": "Hood",
+        "damage_severity": "severe",
+        "labor_hours": 2.1,
+        "estimated_cost": 684.77
+      },
+      {
+        "part": "Front right tire",
+        "damage_severity": "minor",
+        "labor_hours": 1.1,
+        "estimated_cost": 280.6
+      },
+      {
+        "part": "Windshield",
+        "damage_severity": "minor",
+        "labor_hours": 5.2,
+        "estimated_cost": 631.75
+      }
+    ]
+  },
+  {
+    "claim_id": "CLM-2026-000023",
+    "policy_number": "POL-000017",
+    "reported_at": "2026-08-24T07:11:00Z",
+    "claim_type": "roadside_assistance",
+    "status": "paid",
+    "adjuster": {
+      "email": "andino.motors@tpa-siniestros.co",
+      "agency": "Taller Andino Motors"
+    },
+    "estimated_total_cost": 925.23,
+    "repair_line_items": [
+      {
+        "part": "Hood",
+        "damage_severity": "severe",
+        "labor_hours": 5.0,
+        "estimated_cost": 808.09
+      },
+      {
+        "part": "Right side mirror",
+        "damage_severity": "minor",
+        "labor_hours": 1.5,
+        "estimated_cost": 117.14
+      }
+    ]
+  },
+  {
+    "claim_id": "CLM-2026-000024",
+    "policy_number": "POL-000018",
+    "reported_at": "2026-08-06T14:45:00Z",
+    "claim_type": "vandalism",
+    "status": "approved",
+    "adjuster": {
+      "email": "freelance.perito@gmail.com"
+    },
+    "estimated_total_cost": 444.54,
+    "repair_line_items": [
+      {
+        "part": "Right side mirror",
+        "damage_severity": "minor",
+        "labor_hours": 3.8,
+        "estimated_cost": 92.29
+      },
+      {
+        "part": "Rear bumper",
+        "damage_severity": "severe",
+        "labor_hours": 5.5,
+        "estimated_cost": 352.25
+      }
+    ]
+  }
+]
