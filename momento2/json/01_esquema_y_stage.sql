@@ -59,9 +59,12 @@ CREATE FILE FORMAT IF NOT EXISTS VEHICLE_COVERAGE.RAW_JSON.FF_SINIESTROS_JSON
 -- El bucket tiene lectura pública anónima, por eso no hay CREDENTIALS ni STORAGE
 -- INTEGRATION (fuera del alcance del momento, según el enunciado).
 --
--- >>> REEMPLAZA la URL por la del bucket real del equipo antes de ejecutar. <<<
+-- El bucket del equipo. La policy necesita DOS statements: GetObject sobre los
+-- objetos Y ListBucket+GetBucketLocation sobre el bucket — sin el segundo,
+-- Snowflake da "Access Denied" aunque los objetos sean públicos en el navegador
+-- (lección aprendida en vivo la noche del 21/08).
 CREATE OR REPLACE STAGE VEHICLE_COVERAGE.RAW_JSON.STAGE_SINIESTROS
-    URL         = 's3://BUCKET-DEL-EQUIPO-PENDIENTE/'
+    URL         = 's3://rutasegura-1234567890/siniestros/'
     FILE_FORMAT = FF_SINIESTROS_JSON
     DIRECTORY   = (ENABLE = TRUE)
     COMMENT     = 'Bucket S3 del proveedor (lectura publica): exports JSON de siniestros.';
