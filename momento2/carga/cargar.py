@@ -81,6 +81,72 @@ log = logging.getLogger("carga")
 
 
 # ---------------------------------------------------------------------------
+# Detección de schema drift — ANTES de tocar el stage
+# ---------------------------------------------------------------------------
+
+def leer_columnas_csv(ruta_csv: Path) -> set[str]:
+    """Lee solo el header del CSV — no hace falta cargar el archivo para saber
+    qué columnas trae la extracción."""
+    with ruta_csv.open(encoding="utf-8") as archivo:
+        return {c.strip().upper() for c in archivo.readline().strip().split(",")}
+
+
+def columnas_en_snowflake(cursor, esquema: str, tabla: str) -> set[str]:
+    cursor.execute(
+        "SELECT column_name FROM information_schema.columns "
+        "WHERE table_schema = %s AND table_name = %s",
+        (esquema.upper(), tabla.upper()),
+    )
+    return {fila[0] for fila in cursor.fetchall()}
+
+
+def verificar_drift(cursor, tabla: str, ruta_csv: Path, esquema: str) -> None:
+    """Compara el header del CSV contra las columnas de la tabla destino y falla
+    con un mensaje accionable si el origen trae columnas que el destino no tiene.
+
+    ¿Por qué un chequeo explícito, si MATCH_BY_COLUMN_NAME ya hace fallar el COPY
+    ante una columna desconocida? Por la calidad del fallo. El error del COPY es
+    genérico ("Number of columns in file (8) does not match...") y llega DESPUÉS
+    del DELETE, forzando un rollback. Este chequeo corre antes de tocar nada, dice
+    exactamente QUÉ columnas aparecieron, y entrega el ALTER TABLE listo para
+    pegar en un Worksheet. El drift es el mismo problema en ambos casos; el
+    mensaje es la diferencia entre 10 segundos de diagnóstico y 20 minutos.
+
+    Este equipo ya vivió el caso real: la tabla `vehicle` y las columnas
+    `bill.payment_method` y `bill.paid_date` no existían en el baseline del
+    Momento 1 — llegaron por migraciones. Con el modelo aún vivo, va a volver a
+    pasar.
+    """
+    existentes = columnas_en_snowflake(cursor, esquema, tabla)
+    if not existentes:
+        # La tabla no existe todavía: no hay contra qué comparar. El COPY fallará
+        # con su propio mensaje si de verdad falta; 02_raw_tables.sql es el
+        # responsable de crearla.
+        return
+    nuevas = leer_columnas_csv(ruta_csv) - existentes
+    if not nuevas:
+        return
+    # VARCHAR como tipo sugerido, a propósito: el header de un CSV no trae tipos, y
+    # RAW es deliberadamente laxo (ver 02_raw_tables.sql) — el tipado fino es
+    # trabajo de capas posteriores. Quien aplique el ALTER puede afinar el tipo si
+    # conoce el dato.
+    ddl = "\n".join(
+        f'ALTER TABLE {esquema.upper()}.{tabla.upper()} ADD COLUMN "{c}" VARCHAR;'
+        for c in sorted(nuevas)
+    )
+    raise SchemaDriftError(
+        f"Schema drift en {tabla.upper()}: la extracción de Neon trae columna(s) "
+        f"que la tabla destino no tiene: {sorted(nuevas)}.\n"
+        f"  La carga de esta tabla NO se ejecutó (el resto de tablas continúa).\n"
+        f"  Para resolverlo, aplica esto en un Worksheet y vuelve a correr:\n\n{ddl}"
+    )
+
+
+class SchemaDriftError(RuntimeError):
+    """Drift detectado: el origen trae columnas que el destino no conoce."""
+
+
+# ---------------------------------------------------------------------------
 # PUT — subir el archivo al Internal Stage
 # ---------------------------------------------------------------------------
 
@@ -232,8 +298,13 @@ def procesar_tabla(cursor, tabla: str) -> bool:
         return False
 
     try:
+        verificar_drift(cursor, tabla, ruta_csv, os.environ.get("SNOWFLAKE_SCHEMA", "RAW"))
         archivo = subir_al_stage(cursor, ruta_csv)
         reporte = cargar_tabla(cursor, tabla, archivo)
+    except SchemaDriftError as error:
+        log.error("  %s", error)
+        registrar(cursor, tabla, f"{tabla}.csv", 0, "LOAD_FAILED", str(error))
+        return False
     except SnowflakeError as error:
         # str(error) del conector trae el mensaje de Snowflake completo, que suele
         # decir exactamente qué columna o qué fila rompió. Va entero a la bitácora:

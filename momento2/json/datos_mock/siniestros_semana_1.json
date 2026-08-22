@@ -1,0 +1,94 @@
+[
+  {
+    "claim_id": "CLM-2026-0001",
+    "policy_number": "POL-000017",
+    "vin": "VIN-PENDIENTE-48",
+    "reported_at": "2026-08-14T12:50:00",
+    "incident_type": "glass_damage",
+    "estimated_damage_usd": 421.32,
+    "involved_parties": [
+      {
+        "name": "Luisa Cárdenas",
+        "role": "driver",
+        "phone": "+57-301-215-7091",
+        "personal_address": "Cl 37 Sur #45-21, Sabaneta"
+      },
+      {
+        "name": "Luisa Cárdenas",
+        "role": "witness",
+        "phone": "+57-304-204-5085",
+        "personal_address": "Cra 43A #18-95, Medellín"
+      }
+    ]
+  },
+  {
+    "claim_id": "CLM-2026-0002",
+    "policy_number": "POL-000014",
+    "vin": "VIN-PENDIENTE-27",
+    "reported_at": "2026-08-14T11:11:00",
+    "incident_type": "roadside_assist",
+    "estimated_damage_usd": 1507.91,
+    "involved_parties": [
+      {
+        "name": "Andrés Gutiérrez",
+        "role": "witness",
+        "phone": "+57-301-235-1029",
+        "personal_address": "Cra 43A #18-95, Medellín"
+      }
+    ]
+  },
+  {
+    "claim_id": "CLM-2026-0003",
+    "policy_number": "POL-000014",
+    "vin": "VIN-PENDIENTE-50",
+    "reported_at": "2026-08-14T10:10:00",
+    "incident_type": "theft",
+    "estimated_damage_usd": 2587.02,
+    "involved_parties": [
+      {
+        "name": "Ricardo Palacio",
+        "role": "third_party",
+        "phone": "+57-301-807-4225",
+        "personal_address": "Diag 75B #2A-120, Envigado"
+      }
+    ]
+  },
+  {
+    "claim_id": "CLM-2026-0004",
+    "policy_number": "POL-000020",
+    "vin": "VIN-PENDIENTE-2",
+    "reported_at": "2026-08-14T12:26:00",
+    "incident_type": "theft",
+    "estimated_damage_usd": 7965.79,
+    "involved_parties": [
+      {
+        "name": "María Fernanda López",
+        "role": "passenger",
+        "phone": "+57-302-937-1055",
+        "personal_address": "Cra 65 #30-44, Belén"
+      },
+      {
+        "name": "María Fernanda López",
+        "role": "passenger",
+        "phone": "+57-302-938-6014",
+        "personal_address": "Cl 37 Sur #45-21, Sabaneta"
+      }
+    ]
+  },
+  {
+    "claim_id": "CLM-2026-0005",
+    "policy_number": "POL-000021",
+    "vin": "VIN-PENDIENTE-12",
+    "reported_at": "2026-08-14T14:30:00",
+    "incident_type": "theft",
+    "estimated_damage_usd": 654.25,
+    "involved_parties": [
+      {
+        "name": "Daniela Montoya",
+        "role": "passenger",
+        "phone": "+57-303-118-9995",
+        "personal_address": "Diag 75B #2A-120, Envigado"
+      }
+    ]
+  }
+]

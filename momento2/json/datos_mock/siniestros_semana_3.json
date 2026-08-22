@@ -1,0 +1,70 @@
+[
+  {
+    "claim_id": "CLM-2026-0010",
+    "policy_number": "POL-000025",
+    "vin": "VIN-PENDIENTE-53",
+    "reported_at": "2026-08-28T15:11:00",
+    "incident_type": "roadside_assist",
+    "estimated_damage_usd": 7400.09,
+    "involved_parties": [
+      {
+        "name": "María Fernanda López",
+        "role": "witness",
+        "phone": "+57-302-627-9980",
+        "personal_address": "Cra 65 #30-44, Belén",
+        "email": "maría46@example.com"
+      }
+    ],
+    "assigned_workshop": "CDA La Estrella"
+  },
+  {
+    "claim_id": "CLM-2026-0011",
+    "policy_number": "POL-000038",
+    "vin": "VIN-PENDIENTE-43",
+    "reported_at": "2026-08-28T07:48:00",
+    "incident_type": "vandalism",
+    "estimated_damage_usd": 3203.75,
+    "involved_parties": [
+      {
+        "name": "Felipe Arango",
+        "role": "passenger",
+        "phone": "+57-303-371-5814",
+        "personal_address": "Cra 65 #30-44, Belén",
+        "email": "felipe75@example.com"
+      },
+      {
+        "name": "Carlos Restrepo",
+        "role": "witness",
+        "phone": "+57-304-892-5107",
+        "personal_address": "Cra 65 #30-44, Belén",
+        "email": "carlos60@example.com"
+      },
+      {
+        "name": "Jorge Iván Mejía",
+        "role": "passenger",
+        "phone": "+57-302-380-6662",
+        "personal_address": "Diag 75B #2A-120, Envigado",
+        "email": "jorge23@example.com"
+      }
+    ],
+    "assigned_workshop": "CDA La Estrella"
+  },
+  {
+    "claim_id": "CLM-2026-0012",
+    "policy_number": "POL-000029",
+    "vin": "VIN-PENDIENTE-24",
+    "reported_at": "2026-08-28T12:33:00",
+    "incident_type": "theft",
+    "estimated_damage_usd": 4584.11,
+    "involved_parties": [
+      {
+        "name": "Luisa Cárdenas",
+        "role": "passenger",
+        "phone": "+57-303-389-2291",
+        "personal_address": "Diag 75B #2A-120, Envigado",
+        "email": "luisa75@example.com"
+      }
+    ],
+    "assigned_workshop": "CDA La Estrella"
+  }
+]

@@ -1,10 +1,96 @@
-# Decisiones de diseño — Momento 2 (ingesta hacia Snowflake)
+# Decisiones de diseño — Momento 2 (Cloud Data Warehouse)
 
 Equipo 5 · RutaSegura (Cobertura Vehicular)
 
-Este documento registra las decisiones no obvias del pipeline de ingesta y, sobre todo,
-**qué se descartó y por qué**. El código está en [`momento2/`](../momento2/); acá está el
+Este documento registra las decisiones no obvias del Momento 2 y, sobre todo, **qué se
+descartó y por qué**. El código está en [`momento2/`](../momento2/); acá está el
 razonamiento que el código no puede contar.
+
+Las dos primeras secciones responden lo que el entregable E8 pide explícitamente: qué
+fuente semi-estructurada elegimos y por qué, y la estrategia de roles.
+
+---
+
+## A. La fuente semi-estructurada: siniestros del call center
+
+**Decisión.** Exports semanales en JSON del call center de siniestros (mock, generado
+por [`momento2/json/generar_siniestros_mock.py`](../momento2/json/generar_siniestros_mock.py)
+con semilla fija — reproducible como todo lo demás). Cada archivo es un array de
+siniestros; cada siniestro trae un array anidado `involved_parties` con las personas
+involucradas.
+
+**Por qué esta y no otra.** El enunciado permite inventar la fuente, pero pide que sea
+*pertinente al dominio*. Evaluamos tres candidatas:
+
+- **Telemetría GPS de los vehículos.** Volumen natural alto y anidamiento pobre (un
+  punto GPS es plano). Descartada: el array anidado habría sido artificial.
+- **Logs del portal de clientes.** Anidamiento real (eventos por sesión), pero no cruza
+  con el modelo relacional más que por el cliente — y el modelo del Momento 1 no tiene
+  tabla de clientes.
+- **Siniestros (elegida).** Es el corazón operativo de una aseguradora que el modelo
+  relacional del Momento 1 *no cubre* — exactamente el hueco que el enunciado describe
+  ("casi siempre hay una segunda fuente, más desordenada, que también importa"). Cruza
+  con el modelo por `policy_number` y `vin` reales, así que el DW puede responder
+  preguntas nuevas (daño estimado por póliza). El array de involucrados es
+  genuinamente variable (1–3 personas por siniestro) y trae PII de verdad (teléfono,
+  dirección de terceros) que justifica la parte de gobernanza sin inventar nada.
+
+Además, los exports **evolucionan**: los de la semana 2 agregan `email` y los de la 3
+`assigned_workshop`. Eso no es decoración — es lo que demuestra que el camino
+schema-on-read (`VARIANT` + `LATERAL FLATTEN`) absorbe cambios del proveedor sin tocar
+una línea, mientras que el camino relacional (sección C) los detecta y frena. Los dos
+comportamientos son correctos, cada uno en su dominio.
+
+---
+
+## B. Estrategia de roles: dos funciones de negocio, acceso por necesidad
+
+**Decisión.** Además del rol de servicio (`TEAM5_LOADER`, solo para el pipeline), dos
+roles de negocio con necesidades reales y **distintas**:
+
+| | `ROLE_ANALISTA_SINIESTROS` | `ROLE_GERENTE_COMERCIAL` |
+|---|---|---|
+| Función | Gestiona casos: llama a los involucrados | Lee el negocio: pólizas, facturación, agregados |
+| Schema `RAW` (relacional) | ✗ sin acceso | ✓ SELECT |
+| `STG_SINIESTROS_FLATTENED` | ✓ SELECT | ✓ SELECT |
+| `RAW_SINIESTROS` (VARIANT crudo) | ✗ | ✗ |
+| Teléfono de involucrados | Completo | Solo prefijo (`+57-301-***-****`) |
+| Dirección de involucrados | Completa | Oculta |
+
+Tres decisiones dentro de la tabla merecen explicación:
+
+- **Nadie de negocio lee el VARIANT crudo.** `RAW_SINIESTROS` contiene la PII sin
+  procesar; si un rol pudiera consultarlo directo, la Masking Policy del staging sería
+  decorativa. El crudo es del pipeline, no de las personas.
+- **El default de la máscara es cerrado.** El `ELSE` de la política oculta el dato
+  completo — incluso para `ACCOUNTADMIN`. Un rol nuevo nace sin acceso a la PII y hay
+  que dárselo a propósito; administrar la plataforma no es lo mismo que necesitar el
+  dato.
+- **La protección vive en la columna, no en vistas.** La alternativa (una vista
+  "segura" por rol) depende de que cada consumidor futuro se acuerde de usar la vista.
+  La Masking Policy viaja pegada al dato: cualquier query, de cualquier herramienta,
+  pasa por ella.
+
+En cuenta Standard la política no se puede aplicar (`Unsupported feature`); el intento
+y el error quedaron documentados en
+[`evidencias_momento2/masking_intento_standard.md`](evidencias_momento2/masking_intento_standard.md),
+como el enunciado contempla.
+
+---
+
+## C. Detección de schema drift en la ingesta relacional
+
+**Decisión.** Antes de cargar cada tabla, `cargar.py` compara el header del CSV contra
+las columnas del destino. Si el origen trae columnas nuevas, la carga de esa tabla se
+aborta **antes de tocar nada**, con un mensaje que nombra las columnas y entrega el
+`ALTER TABLE` listo para aplicar. Caso provocado y corregido:
+[`evidencias_momento2/drift_provocado_y_corregido.md`](evidencias_momento2/drift_provocado_y_corregido.md).
+
+¿Por qué frenar en vez de aplicar el `ALTER` automáticamente? Porque una columna nueva
+en el origen es una *decisión* de alguien, y el DW no debería absorberla sin que un
+humano la vea. El script deja el costo de decidir en 10 segundos (el DDL ya está
+escrito); lo que no delega es la decisión. Es el contraste deliberado con el camino
+JSON de la sección A, donde absorber cambios sin intervención es el objetivo.
 
 ---
 
